@@ -1,0 +1,13 @@
+# @package _global_
+
+defaults:
+  - override /hydra/launcher: submitit_slurm
+
+hydra:
+  launcher:
+    cpus_per_task: 16
+    gres: gpu:1
+    nodes: 1
+    name: "${wandb.group}/${wandb.name}"
+    mem_gb: 80
+    timeout_min: 1440

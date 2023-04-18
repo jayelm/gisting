@@ -1,0 +1,955 @@
+x,y_pred,y_true
+Instruction: Write a good Twitter Bio. Try to cover all the provided main points in your generated bio. <GIST> Input: Name: Jane Main points: - Architect - Interested in Tech Written in first person Use casual tone,Jane is an architect who is interested in tech.,"I like to think of myself as a kind of architect.
+I'm interested in the tech side of things, and I love coming up with new ideas for how to make things better."
+Instruction: Name the top cities in France that should not be missed. Include the best aspects of each place as well. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"1- Paris, Best for: Historic sights and romantic vibes 2- Nice, Best for: Architecture and dining 3- Lyon, Best for: Dining and live music 4- Bordeaux, Best for: Wine and antiques 5- Marseille, Best for: Museums and nightlife 6- Strasbourg, Best for: Historic architecture and dining"
+"Instruction: Give the news title a category. Pick a category from the list of News & Buzz, Travel, Style, Arts & Culture, Politics, Tech, and Science & Health. <GIST> Input: The #Banksy Exhibit in Cambridge, MA is absolutely terrific.","The #Banksy Exhibit in Cambridge, MA is remarkable.",Arts & Culture
+Instruction: You will be tested on your knowledge of classic witticisms and aphorisms by completing the given aphorism. Write the original quote as the answer. <GIST> Input: two things are infinite,The two things that are infinite are time and space.,"The universe and human stupidity; and I'm not sure about the universe.
+(attributed to Albert Einstein)"
+Instruction: Provide an example of how a table of contents can be generated automatically in a LATEX document. Make sure your example contains the necessary commands. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"To create the table of contents is straightforward, the command tableofcontents does the job.
+Sections, subsections and chapters are included in the table of contents.
+To manually add entries, for example when you want an unnumbered section, use the command addcontentsline as shown in the following example: documentclassarticle usepackageblindtext usepackagetitlesec titleSections and Chapters authorGubert Farnsworth date  begindocument maketitle tableofcontents sectionIntroduction This is the first section.
+blindtext addcontentslinetocsectionUnnumbered Section section*Unnumbered Section blindtext sectionSecond Section blindtext enddocument"
+Instruction: Write the HTML syntax for the required action. <GIST> Input: adding an image to the page,Adding an image to the page.,"img src=""url"" alt=""alternatetext"">"
+Instruction: Write a to-do list based on the given information. <GIST> Input: Daily tasks in the pharmacy,"The daily tasks in the pharmacy include preparing medications, filling prescriptions, assisting customers, and maintaining inventory.",- Police sidewalk and entrance for litter - Assess window displays to make sure they are not outdated or faded - Clean all doors and remove outdated and unnecessary signs - Fill bags at each checkout area - Clean and straighten checkout counters - Tidy up seating/waiting area - Face (pull product forward) in all departments - Check one department a day for short and outdated product - Empty all trash receptacles - Vacuum (when the store is closed or only if customer traffic allows for it during store hours)
+"Instruction: You are given a paper citation, convert it to the requested citation style. <GIST> Input: Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz, and Illia Polosukhin. ""Attention Is All You Need."" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762. MLA:",Attention Is All You Need,"Vaswani, Ashish, et al.
+""Attention Is All You Need.""
+arXiv, 2017, https://doi.org/10.48550/arXiv.1706.03762."
+Instruction: Provide a pleasant compliment based on the quality you have been given. <GIST> Input: Truthfulness,"Truthfulness is like a lighthouse, providing guidance and comfort in times of trouble.",Everything would be better if more people were like you.
+Instruction: Make a list of adjectives that can be used to describe the given brand. <GIST> Input: a creative tech startup,"""Creative Tech: Unlocking the Potential of the Modern World""","1.
+Innovative 2.
+Creative 3.
+Disruptive 4. cutting-edge 5. revolutionary 6. game-changing 7. industry-leading 8. trailblazing 9. groundbreaking 10. world-changing"
+Instruction: Suggest a recipe for a vegan dessert. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Honey Lime Fruit Salad Ingredients: (for 4 servings) 12 lb fresh strawberry(225 g), quartered 2 kiwis, peeled and diced 2 mangoes, diced 2 bananas, sliced 12 lb fresh blueberry(225 g) 2 tablespoons honey 1 lime, juiced Preparation: Place sliced fruits in a large bowl.
+In a small bowl, mix honey and lime juice.
+Pour syrup over the fruit and mix."
+"Instruction: Identify the programming language used to write the given code. <GIST> Input: if (20 > 18) <unk> printf(""20 is greater than 18""); <unk>",The code is correct.,C
+"Instruction: Find synonyms for the given word. You need to write down how the provided synonyms differ from the original word in terms of meaning, usage, etc. <GIST> Input: adversity","Adversity is like a thief in the night, stealing away our joy and leaving us feeling helpless.","- mischance:The words mischance and adversity are synonyms, but do differ in nuance.
+Specifically, mischance applies especially to a situation involving no more than slight inconvenience or minor annoyance.
+- misfortune: The meanings of misfortune and adversity largely overlap; however, misfortune may apply to either the incident or conjunction of events that is the cause of an unhappy change of fortune or to the ensuing state of distress.
+- mishap: The synonyms mishap and adversity are sometimes interchangeable, but mishap applies to an often trivial instance of bad luck."
+"Instruction: Make the article available in a second language by translating it into it. <GIST> Input: Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth. It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa. Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint. The practitioner is called a dentist. Translate to French:","Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth.
+It consists of the study, diagnosis, prevention, management, and treatment of diseases, disorders, and conditions of the mouth, most commonly focused on dentition (the development and arrangement of teeth) as well as the oral mucosa.
+Dentistry may also encompass other aspects of the craniofacial complex including the temporomandibular joint.
+The practitioner is called a dentist.","La dentisterie, également connue sous le nom de médecine dentaire et de médecine buccale, est la branche de la médecine axée sur les dents, les gencives et la bouche.
+Il consiste en l'étude, le diagnostic, la prévention, la gestion et le traitement des maladies, troubles et affections de la bouche, le plus souvent axés sur la dentition (le développement et la disposition des dents) ainsi que sur la muqueuse buccale.
+La dentisterie peut également englober d'autres aspects du complexe craniofacial, y compris l'articulation temporo-mandibulaire.
+Le praticien est appelé dentiste."
+Instruction: Make a list of desirable Skills for software engineers to add to LinkedIn. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,Test-Driven Development Object-Oriented Programming (OOP) MVC REST API Technical Writing Debugging
+Instruction: Think of a motivational quote that you have read in a book. Try to keep it positive and sweet. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"“Believe in yourself.
+You are braver than you think, more talented than you know, and capable of more than you imagine.”  Roy T. Bennett, The Light in the Heart"
+"Instruction: Based on the given query, suggest some related search queries. <GIST> Input: learning french",learning french,learning french for beginners earning french online learning french free french language course learning french review how to learn french on your own best way to learn french online
+"Instruction: Change the first person to the third person in the given sentence. The meaning should be kept, but you can paraphrase it or expand it in order to have a better pose. <GIST> Input: We were recently able to increase the amount of stock we hold with the same supplier thereby reducing our risk.","We recently increased the amount of stock we hold with the same supplier, thereby reducing our risk.",The company was recently able to increase the amount of stock it holds with the same supplier thereby reducing its risk.
+Instruction: Give a grammar tip on how to end a German verb. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Verbs have different endings depending on the subject of the sentence.
+Lucky for you er and sie use the same ending.
+Subject | Ending ich | e du | st er / sie | t"
+"Instruction: Extract the address of the property from the ""About this space"" section of Airbnb. <GIST> Input: Tucked in the foothills of the quaint historic mining town of Grass Valley, CA this funky and spacious chalet invites you to experience the great outdoors with family, friends and pets. Enjoy the hot tub, basketball court, treehouse, kids rooms, bbq, fire-pit, outdoor theater, and more. One hour from Tahoe and 10 minutes to town, you’re never short of things to explore.","The chalet is located in the foothills of the historic mining town of Grass Valley, CA.
+It is a funky and spacious chalet that offers a variety of amenities for guests to enjoy.
+The chalet has a hot tub, basketball court, treehouse, kids rooms, bbq, fire-pit, outdoor theater, and more.
+It is one hour from Tahoe and 10 minutes to town.","Grass Valley, California, United States"
+Instruction: Identify and fix bugs in the given code and rewrite it <GIST> Input: for i in range(10) print(Answer is:) print(i),for i in range(10) print(i),"for i in range(10): print(""Answer is:"") print(i)"
+"Instruction: Answer the following question. <GIST> Input: How do I compare strings in Java? I've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into.equals() instead, and it fixed the bug. Is == bad? When should it and should it not be used? What's the difference?","The == operator is used to compare two strings.
+It returns a new string if they are equal.
+The == operator is not used for string comparison.","== tests for reference equality (whether they are the same object)..equals() tests for value equality (whether they are logically ""equal"").
+Objects.equals() checks for null before calling.equals() so you don't have to (available as of JDK7, also available in Guava).
+Consequently, if you want to test whether two strings have the same value you will probably want to use Objects.equals().
+You almost always want to use Objects.equals().
+In the rare situation where you know you're dealing with interned strings, you can use ==."
+"Instruction: Create a table listing all games that meet the specified criteria in the National Football League. Use the season, local time, game, and score as columns of the table. <GIST> Input: Ravens home games in 2011",The Ravens played their home games at M&T Bank Stadium in 2011.,"season | local time | game | score 2011-12 | Sun, Jan 15 | Texans (11-7) at Ravens (13-4) | 13 - 20 2011-12 | Sat, Dec 24 | Browns (4-11) at Ravens (11-4) | 14 - 20 2011-12 | Sun, Dec 11 | Colts (0-13) at Ravens (10-3) | 10 - 24 2011-12 | Thu, Nov 24 | 49ers (9-2) at Ravens (8-3) | 6 - 16 2011-12 | Sun, Nov 20 | Bengals (6-4) at Ravens (7-3) | 24 - 31 2011-12 | Sun, Oct 30 | Cardinals (1-6) at Ravens (5-2) | 27 - 30 2011-12 | Sun, Oct 16 | Texans (3-3) at Ravens (4-1) | 14 - 29 2011-12 | Sun, Oct 2 | Jets (2-2) at Ravens (3-1) | 17 - 34 2011-12 | Sun, Sep 11 | Steelers (0-1) at Ravens (1-0) | 7 - 35"
+Instruction: You should capitalize the sentence according to the guide. <GIST> Input: Guide: Every other letter alternates between lower case and upper case. Sentence: A giant spider blocks your path.,4,a gIaNt SpIdEr BlOcKs YoUr PaTh.
+"Instruction: The movie tagline is the film's advertising slogan, usually printed on posters prior to the official release. It is a short description or comment on a movie to capture the essence of the movie, and ultimately make you watch the movie. Here is an example: <GIST> Input: Movie: Joker (2019)",Yes,Put on a happy face.
+"Instruction: Write what the pronunciation of the given word sounds like. Follow the ""Google pronunciation dictionary"" scheme for phonetic spelling. <GIST> Input: interpretations",interpretations,intrpruhtayshnz
+"Instruction: Notify me of any suggestions you may have for making the text more grammatically correct. <GIST> Input: This is the second time I've been here, and the vibes, and the food were exquisite.","This is the second time I've been here, and the vibes and the food were exquisite.","It appears that you have an unnecessary comma in a compound subject.
+Consider removing it."
+Instruction: Suggest some Audiobooks for First-Time Listeners. You can attract them by choosing popular works. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"+ Harry Potter and the Sorcerer's Stone By J.K. Rowling + The Vanishing Half by Brit Bennett + The Fellowship of the Ring by J.R.R.
+Tolkien + And Then There Were None by Agatha Christie.
++ The Woman in Cabin 10 by Ruth Ware.
++ The Hitchhiker's Guide to the Galaxy by Douglas Adams.
++ Spinning Silver by Naomi Novik.
++ Good Omens by Terry Pratchett and Neil Gaiman.
++ Charlotte's Web by E. B."
+Instruction: Convert natural language into a list of turn-by-turn directions. <GIST> Input: Go west on I-10 until you hit the 101 then take it north. You will eventually see the Hollywood sign.,"Go west on I-10 until you hit the 101 then take it north.
+You will eventually see the Hollywood sign.","1.
+Go west on I-10.
+2.
+Take the 101 north.
+3.
+You will eventually see the Hollywood sign."
+"Instruction: You are given a search query and a document. Classify whether the document is relevant to the search query or not relevant. <GIST> Input: Search: why sky is blue Document: The Short Answer: Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air. Blue light is scattered more than the other colors because it travels as shorter, smaller waves. This is why we see a blue sky most of the time.",Short Answer,relevant
+Instruction: Rewrite the text and correct the spelling errors. <GIST> Input: It solves problems comon and uniqe to every team.,It solves problems common and unique to every team.,It solves problems common and unique to every team.
+"Instruction: Provide a formula for computing the nth term in the given sequence <GIST> Input: 5, 14, 23, 32, 41,...",23,an = 9*n - 4
+"Instruction: Explain the meaning of the given phrase in simple terms. Use an example if possible. It would be helpful if you could give an example. <GIST> Input: ""With a little give in them""","With a little give in them, they'll be yours.","It means with some space to move.
+It's a metaphor.
+""Give"" is a noun here.
+It's meaning is similar to""flexibility"".
+If something has no ""give"" it's tight and rigid.
+It's the opposite of flexible and loose.
+For example, you might use it to talk about clothes: ""These jeans are so tight.
+There's no give in them.
+I can't move."""
+Instruction: Describe how to prepare the given food in your own words. Note down the ingredients you will need and the steps you will take to prepare them. <GIST> Input: Chewy Chocolate Chip Cookies,"Chewy Chocolate Chip Cookies are a delicious treat that are sure to satisfy any sweet tooth.
+They are made with a combination of chocolate chips and cookies, creating a chewy and crunchy texture that is sure to please.
+The cookies are also packed with flavor, with a hint of cinnamon and a hint of vanilla extract.
+They are the perfect balance of sweet and salty, and are sure to become a favorite in your cookie jar.","Ingredients (for 12 cookies): 12 cup granulated sugar(100 g) 34 cup brown sugar(165 g), packed 1 teaspoon salt 12 cup unsalted butter(115 g), melted 1 egg 1 teaspoon vanilla extract 1 14 cups all-purpose flour(155 g) 12 teaspoon baking soda 4 oz milk or semi-sweet chocolate chunks(110 g) 4 oz dark chocolate chunk(110 g), or your preference Preparation: In a large bowl, whisk together the sugars, salt, and butter until a paste forms with no lumps.
+Whisk in the egg and vanilla, beating until light ribbons fall off the whisk and remain for a short while before falling back into the mixture.
+Sift in the flour and baking soda, then fold the mixture with a spatula (Be careful not to overmix, which would cause the gluten in the flour to toughen resulting in cakier cookies).
+Fold in the chocolate chunks, then chill the dough for at least 30 minutes.
+For a more intense toffee-like flavor and deeper color, chill the dough overnight.
+The longer the dough rests, the more complex its flavor will be.
+Preheat oven to 350°F (180°C).
+Line a baking sheet with parchment paper.
+Scoop the dough with an ice-cream scoop onto a parchment paper-lined baking sheet, leaving at least 4 inches (10 cm) of space between cookies and 2 inches (5 cm) of space from the edges of the pan so that the cookies can spread evenly.
+Bake for 12-15 minutes, or until the edges have started to barely brown.
+Cool completely before serving."
+"Instruction: Based on the given keywords, write a review of a restaurant. <GIST> Input: Name: Pizzeria good prices, quiet place, tasty, nice staff","Name: Pizzeria Good prices, quiet place, tasty, nice staff","I had a great experience at Pizzeria.
+The prices were good, it was a quiet place, and the food was tasty.
+The staff was also very nice."
+Instruction: Solve the given Sudoku puzzle. <GIST> Input: The Sudoku puzzle is: |1| |5| | | | |8| | | | | | | |3| |6|4| |8|3|4|6|7| |9| | | |2|9|1| | |8|3|7|6| | | |6| | |9|8|1| | | | | | | |2| | | | | |2| | |9|7|6| | | |5|4| | | | | |9|8| |6|1| | | |5|4|3|7|,"The Sudoku puzzle is a logic puzzle in which the goal is to fill in the grid with numbers from 1 to 9.
+The puzzle is based on the Japanese game of Go, which is a game of strategy and logic.
+The goal is to move the pieces around the board so that each row, column and diagonal contains the same number.
+The puzzle is solved by filling in the cells with numbers from 1 to 9.",The solved Sudoku puzzle is: |1|6|5|9|2|4|7|8|9| |9|7|2|8|5|3|1|6|4| |8|3|4|6|7|1|9|2|5| |2|9|1|5|4|8|3|7|6| |4|5|6|7|3|9|8|1|2| |7|8|3|1|6|2|5|4|9| |3|2|8|4|9|7|6|5|1| |5|4|7|3|1|6|2|9|8| |6|1|9|2|8|5|4|3|7|
+Instruction: Paraphrase the given text in an academic style. <GIST> Input: Lots of papers have been published on this topic.,There are many papers published on this topic.,A considerable amount of literature has been published on this topic.
+"Instruction: You will need to guide this person through the scenario they have described for the interview. <GIST> Input: Finally! After a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've came up with an algorithm for solving the coding question your interviewer gave you. Whew. Such a relief to have a clear path forward. To not be flailing anymore. Now you're cruising, getting ready to code up your solution. When suddenly, your interviewer throws you a curve ball. ""What if we thought of the problem this way?"" You feel a tension we've all felt during the coding interview: ""Try to listen to what they're saying...but don't lose your train of thought...ugh, I can't do both!""","Finally, after a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've came up with an algorithm for solving the coding question your interviewer gave you.
+Whew.
+Such a relief to have a clear path forward.
+To not be flailing anymore.
+Now you're cruising, getting ready to code up your solution.
+When suddenly, your interviewer throws you a curve ball.
+""What if we thought of the problem this way?""
+You feel a tension we've all felt during the coding interview:","Your interviewer probably won't fault you for going down the wrong path at first.
+They've seen really smart engineers do the same thing.
+They understand it's because you only have a partial view of the maze.
+They might have let you go down the wrong path for a bit to see if you could keep your thinking organized without help.
+But now they want to rush you through the part where you discover the dead end and double back.
+Not because they don't believe you can manage it yourself.
+But because they want to make sure you have enough time to finish the question.
+But here's something they will fault you for: failing to listen to them.
+Nobody wants to work with an engineer who doesn't listen.
+So when you find yourself in that crucial coding interview moment, when you're torn between holding your train of thought and considering the idea your interviewer is suggesting...remember this: Listening to your interviewer is the most important thing.
+Take what they're saying and run with it.
+Think of the next steps that follow from what they're saying.
+Even if it means completely leaving behind the path you were on.
+Trust the route your interviewer is pointing you down.
+Because they can see the whole maze."
+"Instruction: You need to come up with the names of some of the papers that relate to the paper you are given. <GIST> Input: RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering","RoMQA: A Benchmark for Robust, Multi-evidence, Multi-answer Question Answering","+ Question Answering Infused Pre-training of General-Purpose Contextualized Representations + Zero-Shot Dialogue State Tracking via Cross-Task Transfer + Adapting Language Models for Zero-shot Learning by Meta-tuning on Dataset and Prompt Collections + HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering + FewshotQA: A simple framework for few-shot learning of question answering tasks using pre-trained text-to-text models + MKQA: A Linguistically Diverse Benchmark for Multilingual Open Domain Question Answering + FewCLUE: A Chinese Few-shot Learning Evaluation Benchmark + Multilingual Transfer Learning for QA Using Translation as Data Augmentation + Towards Zero Shot Conditional Summarization with Adaptive Multi-task Fine-Tuning"
+"Instruction: In the event that a person enjoyed the book that was given, please suggest other books that they might also like. <GIST> Input: The Great Gatsby",Fiction,"To Kill a Mockingbird, The Catcher in the Rye, 1984, Animal Farm, Pride and Prejudice, The Hunger Games, Of Mice and Men, Lord of the Flies"
+"Instruction: Create a brief resume introduction using the following information. <GIST> Input: name: Mark nationality: Italian language: English attributes: creative, goal-oriented, motivated skills: software engineering, content marketing","Mark is a creative, goal-oriented, motivated software engineer with a passion for software engineering and content marketing.
+He is highly skilled in developing software solutions and leveraging his knowledge of software engineering to create engaging content.
+Mark is also highly motivated and dedicated to his work, always striving to exceed expectations.","Mark is a creative and goal-oriented software engineer and content marketer.
+He has a strong background in software engineering and is skilled in content marketing.
+He is a motivated individual who always looks for new opportunities to learn and grow."
+Instruction: The last message in the chat is a partial response. You should complete and rewrite it. <GIST> Input: + What are going to do now? - I don't know. I had to give up my dream of being a mathematician. + Why,"I was not good at math and I didn't have enough time to study for the exam.
+So I decided to study computer science instead.","+ Why is that?
+What happened?"
+"Instruction: This is a test for the reading ability of French. Read the given story carefully, and then answer the question in the end. <GIST> Input: Lucie est à la maison avec sa petite-fille, Lin. Lucie: Oh, non! Nous n'avons pas de pain! Lin: Ah! Tu vas au supermarché? Lucie: Oui, je veux une baguette pour mon sandwich. Do Lin and Lucie have a lot of bread?","Yes, they do.","No, that's wrong."
+Instruction: Define what the underlined word means for kids. <GIST> Input: _keep a promise,Keep a promise.,to be faithful to : Fulfill
+Instruction: Write an email to attendees as a reminder that the event is coming up. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Hello, [name]!
+We're excited to announce the [event name] event that you signed up for.
+The location is [location], and the date and time is [date and time].
+If you have any questions or concerns about the event, please let us know by emailing us at [email]."
+Instruction: Write a social media post about the call for collaboration on a crowdsourcing project in a persuasive way. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Looking for collaborators on a new crowdsourcing project!
+This is a great opportunity to get involved in something innovative and impactful.
+If you're interested, please let me know."
+Instruction: Think of topics that are most common in classic interview questions for a job in computer science. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,+ Array + Strings + Linked List + Trees + Sorting and Searching + Dynamic Programming + Design + Math
+"Instruction: Extract the method that has been used in the research from the abstract of the paper. Give the exact sentences from the abstract that discuss the method. <GIST> Input: We present a state-of-the-art speech recognition system developed using end-to-end deep learning. Our architecture is significantly simpler than traditional speech systems, which rely on laboriously engineered processing pipelines; these traditional systems also tend to perform poorly when used in noisy environments. In contrast, our system does not need hand-designed components to model background noise, reverberation, or speaker variation, but instead directly learns a function that is robust to such effects. We do not need a phoneme dictionary, nor even the concept of a ""phoneme."" Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training. Our system, called Deep Speech, outperforms previously published results on the widely studied Switchboard Hub5'00, achieving 16.0% error on the full test set. Deep Speech also handles challenging noisy environments better than widely used, state-of-the-art commercial speech systems.Collapse",The authors should use a larger dataset to train the model.,"We do not need a phoneme dictionary, nor even the concept of a ""phoneme.""
+Key to our approach is a well-optimized RNN training system that uses multiple GPUs, as well as a set of novel data synthesis techniques that allow us to efficiently obtain a large amount of varied data for training."
+Instruction: Design a programming problem related to the subject that has been given to you. Use some examples and constraints to improve your question. <GIST> Input: Dynamic Programming,"Dynamic Programming is a programming paradigm that focuses on the use of dynamic programming techniques to solve problems.
+It is based on the idea that the solution to a problem can be found by analyzing the data and identifying patterns.
+This allows for more efficient and effective solutions to be found.","Given an integer array nums, return the length of the longest strictly increasing subsequence.
+Example 1: In: nums = [10,9,2,5,3,7,101,18] Out: 4 Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
+Example 2: In: nums = [0,1,0,3,2,3] Out: 4 Example 3: In: nums = [7,7,7,7,7,7,7] Out: 1 Constraints: 1 = nums.length = 2500 -104 = nums[i] = 104 Follow up: Can you come up with an algorithm that runs in O(n log(n)) time complexity?"
+"Instruction: Categorize the given product into one of Electronics, Computers, Smart Home, or Arts & Crafts departments. <GIST> Input: Google Nest Learning Thermostat","The Google Nest Learning Thermostat is a smart thermostat that learns from its users and adjusts the temperature accordingly.
+It uses sensors to detect the temperature in the room and adjusts the temperature accordingly.
+It also has a night light that turns on automatically when it detects darkness.",Smart Home
+Instruction: Please suggest a few papers to consider based on the search term given. The names of the papers should be listed. <GIST> Input: Topic: scaling law + machine learning,"Scaling law is a mathematical concept that describes the tendency of a system to become increasingly complex as the size of its inputs and outputs increases.
+It is a powerful tool for understanding and optimizing the performance of machine learning models.",- Learning to limit data collection via scaling laws: A computational interpretation for the legal principle of data minimization - Data and parameter scaling laws for neural machine translation - Explaining neural scaling laws - Scaling laws for autoregressive generative modeling - Scaling laws for neural language models
+"Instruction: Take a look at the contract and extract the parties of the agreement from it. <GIST> Input: As of the 13th day of December 2021, this Music Recording Agreement (""Agreement"") is made between Good Kid, a Toronto-based musical group (""Artist""), and Universal Music Group, a record label with license number 545345 (""Record Label""). The Artist and the Recording Label may be referred to in this Agreement individually as ""Parties"" and collectively as ""Parties."" Work under this Agreement will begin on March 15, 2022, and will last for the duration of the Agreement.",Good Kid,Artist: Good Kid Recording Label: Universal Music Group
+Instruction: Write a template for First-Person LinkedIn profile summary. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"[Degree] in [Area of Study] from [School], I entered the [Industry] world to explore my passion for ____, ____, and ____.
+Currently, I work as a [Job Title] for [Company], where I'm focused on ____, ____, and ____."
+Instruction: Look for poems that mention the given object or character. The names of the poems and their poets should be written. <GIST> Input: santa claus,santa claus,Santeclaus by William Gilley A Visit From St. Nicholas by Clement Clarke Moore
+"Instruction: Please let me know your thoughts on the given place and why you think it deserves to be visited. <GIST> Input: Barcelona, Spain","Barcelona is a vibrant city with a rich cultural history.
+It is home to many iconic landmarks, such as the Sagrada Familia, the Barcelona Cathedral, and the Picasso Museum.
+The city is also known for its vibrant nightlife, with many bars and clubs to choose from.","There’s nowhere in the world like Barcelona.
+From days spent strolling the Gothic Quarter to afternoons at the beach and nights partying ‘til dawn, the city is magnetic.
+While tapas and bustling mercados are worth every bit of attention they get in guidebooks, Barcelona’s true crown jewel is the work of Antoni Gaud.
+His iconic creations, like the jaw-dropping Basilica of La Sagrada Familia, are instantly recognizable and have fueled millions of travel dreams.
+You won’t be the only tourist here (especially during the summer), but even amid the crowds you’ll find your own Mediterranean magic any time of year."
+Instruction: Answer the following literature question as accurately as possible based on your knowledge of literature for high school students. <GIST> Input: What does the green light symbolize at the end of the book?,The green light symbolizes hope and renewal.,"The green light symbolizes several different things to different characters throughout the book, but overall, it stands for the inaccessibility of the American Dream.
+At the start of the novel, the light symbolizes Gatsby's unwavering love for Daisy.
+He stands at the end of the dock gazing across the bay, reaching for the light, waiting for Daisy to come back to him.
+His hope, like the eternal green light, is unfaltering.
+It isn't until Daisy admits later that she had never really noticed the light that the facade began to slip.
+Nick, the narrator, starts to recognize it as a symbol of Gatsby's unhealthy desperation rather than his love.
+This is parallel to Gatsby's experience of the American Dream and money.
+Gatsby is unbelievably rich at the beginning of the novel.
+This solidifies his belief in the American Dream, though he still reaches for the acceptance of those who are wealthier and more popular.
+Nick believes money is not an object to Gatsby, though he has no idea how he made all of it.
+As the story unfolds and the mystery and mystique around Gatsby fade, so does Gatsby and Nick's blind belief and trust in the American Dream.
+After Gatsby is murdered, the green light is symbolic of the ways that money and affluence ruin the lives of those without.
+It is also symbolic of the way that the American dream ruins the lives of those eternally reaching for it."
+Instruction: You will be required to write a few questions from the given company's interview section. <GIST> Input: Kohl's,The store Kohl's is located in the United States.,"- Why do you want to work at kohls?
+- If you were helping a customer and another interrupted you, what would you do?
+- What’s your availability?
+- What do you think is the most important aspect of working in a retail store?
+- What’s a reasonable reason for not showing up at work?"
+"Instruction: You are given a programming problem and its implementation. Analyze the problem and implementation and explain the algorithm and approach used to solve the problem. <GIST> Input: Table: Person | Column Name | Type | | personId | int | | lastName | varchar | | firstName | varchar | personId is the primary key column for this table. This table contains information about the ID of some persons and their first and last names. Table: Address | Column Name | Type | | addressId | int | | personId | int | | city | varchar| | state | varchar | addressId is the primary key column for this table. Each row of this table contains information about the city and state of one person with ID = PersonId. Write an SQL query to report the first name, last name, city, and state of each person in the Person table. If the address of a personId is not present in the Address table, report null instead. Return the result table in any order. Implementation: select FirstName, LastName, City, State from Person left join Address on Person.PersonId = Address.PersonId ;","Person - Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person, Person,","Since the PersonId in table Address is the foreign key of table Person, we can join these two tables to get the address information of a person.
+Considering there might be no address information for every person, we should use outer join instead of the default inner join."
+"Instruction: Provide an ESRB rating for the following game. <GIST> Input: This is an action-adventure game in which players help Kratos and his son on a dangerous quest. Players explore various realms and engage in frenetic hand-to-hand combat against human-like raiders and fantastical creatures (e.g., centaurs, trolls, dragons). Players use axes and chained blades to battle enemies, often resulting in large blood-splatter effects and dismemberment. Players can perform finishing attacks that depict close-up impalement via bladed and hand-held weapons; repeated axe strikes to a creature's neck results in decapitation. The words “f**k” and “sh*t” are heard in the game.",Yes,Mature 17+
+"Instruction: Take the product description and write a creative ad for it. <GIST> Input: Document Cameras allow teachers to display documents, books, or other materials for their students to see.","Document Cameras are a great tool for teachers to use in the classroom.
+They allow them to easily display documents, books, and other materials for their students to see.","Looking for a way to make your lessons more engaging?
+Check out our document cameras!
+With our cameras, you can display documents, books, or other materials for your students to see.
+This is a great way to add more visual elements to your lessons and make them more exciting for your students."
+Instruction: Give a brief description of the given category of movies and shows. <GIST> Input: Period Dramas,Romance.,"Want to escape the contemporary world?
+Explore these historical dramas and shows from the time that have magnificent art and costume design, lots of drama, and a lot of history."
+"Instruction: Answer the following question. <GIST> Input: How do you say ""good evening"" in French.",Bonjour.,bonsoir
+Instruction: List the concepts that should be learned before approaching the given complex concept. <GIST> Input: Deep Learning,"Deep Learning is a subfield of machine learning that uses statistical techniques to learn from large amounts of data.
+It is used in a variety of applications, such as image recognition, natural language processing, and robotics.",- Linear Algebra - Calculus - Statistics - Probability - Programming - Machine Learning
+"Instruction: Schedule the meetings based on the given informqation. <GIST> Input: Person1: available from 9-11 am, meeting duration: 30 min Person2: available from 1-3 pm, meeting duration: 90 min Person3: available from 2-3:30 pm, meeting duration: 60 min",Person2,"Person1: 9-9:30 am, Person2: 1-2:30 pm, Person3: 2:30-3:30 pm"
+"Instruction: Make a list of outdoor activities that are suitable for the given weather condition. <GIST> Input: Temperature: 57 F, Showers",Yes,- Take a walk in the rain - Jump in puddles - Put on your own musical in the rain - Paint with Mud - Build a shelter - Make Nature Boats - Create a Dam
+"Instruction: Find sentences from reliable sources such as the Guardian or Forbes that contain the exact match for the given sentence or phrase. Also, mention the source of each sentence. <GIST> Input: There are great options",There are great options.,"- Stella McCartney's faux fur has fashionable, luxury and ethical credentials and there are great options at Dries Van Noten too.
+(Independent) - And in the capital, Funchal, there are great options for self-caterers; I stayed in a beach house in the old town, one of a collection of seafront villas (funchalcottages.co.uk).
+(The Guardian - Travel) - City by city around the world, there are great options for shoppers to bring home not just special goods, but special memories.
+(Forbes) - Yes, there are great options out there that aren't owned by any big company (yet), but Twitter has an opportunity here to act as an app Switzerland, and attract some ad business while it's at it.
+(TechCrunch)"
+"Instruction: Write an engaging and well-written property listing description for selling a house. Address of the house and some of the details are given to you. Fill in the information gap with hallucinations if needed. <GIST> Input: Property Address: 412 Monterey Ave, Capitola, CA 95010 Parking: 3 cars + a finished single car garage Details: - open floorplan - window with views to park/mountains - Kitchen with shaker cabinetry and white Calcatta quartz counters","$400,000","Amazing designer updates to this beach chich home that is just a quick 3-minute stroll to Capitola Village!
+As you enter this light-filled home you will love the open floorplan and huge picture window with views to park/mountains!
+Kitchen with shaker cabinetry and white Calcatta quartz counters new stainless appliances (gas stove).
+Master bedroom with own access to yard!
+Beautiful bathrooms w/designer finishes and custom, subway & picket tile!
+New composition roof and gutters, new indoor and outdoor paint, new dual pane windows, new wide plank washed oak laminate floors, new doors, new fencing, forced air heat + LOTS more!
+Home sits high above Monterey Ave with alley access and parking for 3 cars + a finished single car garage!
+The indoor/outdoor living is ideal from this sunny locale with front, side and backyards that are super sunny with pathways and perfect for gardening or entertaining!
+Stroll to beach, Gayles bakery, parks, schools & churches from this adorable beach home!"
+"Instruction: You are given some reviews for a movie. Each video might have mentioned some negative or positive points about the movie. Read them carefully and extract the positive and negative points mentioned in all of the reviews. Then, make a list of these points and summarize them as positive points and negative points. <GIST> Input: Review 1: I'm not sure if it's just the fact that Ed Norton really grates on me in this film, but I never really bought into the idea of Fight Club being some kind of cultural phenomenon. Yes it's an innovative story, told via a strong script, engaging characters and intense cinematography. But is it really worthy of such high praise? Personally, I find it starts to fall apart halfway through and actually becomes quite tedious towards the end. Everything just becomes a little bit childish and contrived as the story loses touch with its base elements and the rage against the machine vibe takes over. I have huge respect for the way this film was made but, much like The Matrix, I feel like people attach way more importance to this movie than it deserves. Review 2: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives. Review 3: Despite a good theme, great acting and important messages that this movie convey in an unorthodox way, I think it fails to connect the audience with the storyline and leaves him in a world of confusion. Although, majority of reviews find this movie entertaining and interesting, yet I would choose to be a minority that believes that this movie is extremely overrated. Review 4: Is creating chaos, explosions and membership in a militant sect","Review 3: The film tells the story of men who cannot adapt to the social order in today's world, under the leadership of Tyler Durden, to discover their natural instinct, masculinity, and to escape from their unhappy lives.",Positive points: - Innovative story - Strong script - Engaging characters - Intense cinematography - Good theme - Great acting - Important messages - Fascinating visual effects Negative points: - Ed Norton grates on the viewer - Starts to fall apart halfway through - Childish and contrived towards the end - Loses touch with its base elements - World of confusion - Overrated
+Instruction: Write a short description about the given movie or series. <GIST> Input: The Witcher (2019),The Witcher,"Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts."
+Instruction: My favorite witty review of The Rings of Power series is this: <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"The Rings of Power series is one of the best things to come out of Middle Earth since, well, the Ring itself!
+If you're a fan of fantasy, adventure, and intrigue, then this is definitely the series for you.
+The characters are richly drawn and the plot is twisty and full of surprises.
+I can't recommend it highly enough!"
+Instruction: A list of all movies that meet the criteria given should be compiled. <GIST> Input: movies directed by Spike Lee by release date,Spike Lee,| | release date 1 | American Utopia | 10/09/2020 2 | Da 5 Bloods | 12/06/2020 3 | BlacKkKlansman | 10/08/2018 4 | Pass Over | 20/04/2018 5 | Rodney King | 28/04/2017
+"Instruction: Give a brief summary of the intention of the dialogue that just happened. <GIST> Input: Customer: Hi there, I'm looking for a new phone. AI: Hi! What type of phone are you looking for? Customer: I'm not sure. Maybe something with a good camera? AI: We have a few phones with great cameras. Would you like to see some options? Customer: Yeah, that would be great.","AI: Here are some phones with great cameras.
+Would you like to see some options?
+Customer: Sure, what do you have?
+AI: Here are two phones with a 12MP camera and a 13MP camera.
+Would you like to see them?
+Customer: Sure, what do you think?
+AI: The first one has a 12MP camera and the second one has a 13MP camera.
+Would you like to see them?
+Customer: Sure, what do you think?
+AI: The first one has a 12MP camera and the second one has a 13MP camera.
+Would you like to see",A customer wants to buy a new phone.
+Instruction: Write a LinkedIn post to announce that you have accepted a new job offer. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"“I’m excited beyond words to share with you my decision to accept the role of Marketing Director at the XYZ Company!
+I couldn’t have had this opportunity if not for the help of my friend, [name], who shared this job opportunity with me, and my former boss, [boss’s name], for her stellar recommendation and guidance.
+I happily look forward to starting this new journey and growing professionally with my new family—the marketing rock stars of XYZ Company.”"
+Instruction: Make a list of the materials that will be required to build the given tool. <GIST> Input: Coffee Darkness Meter,"The Coffee Darkness Meter is a device that measures the amount of coffee grounds in a cup.
+It is designed to help coffee drinkers determine the level of roast and darkness of their coffee.
+The device is made of a light-colored plastic and has a curved shape that allows it to fit comfortably in the palm of your hand.
+It has a light sensor that detects the amount of coffee grounds in the cup and displays the results in a numerical display.","- Arduino Nano (or Uno) - 0.96"" OLED display - TSL2561 lux and IR sensor on a brake-out board (I used Adafruit's) - ON/OFF toggle switch - Momentary push button - 9V battery and battery clip - 2x IR LEDs - 2x 100ohm resistors - 2x 10K resistors - 2x 2.2K resistors - wire for connecting - case for everything (3D printed)"
+"Instruction: You should write a Product Description that will persuade the buyer that the product is beneficial. <GIST> Input: Flipslide Game, Electronic Handheld Game | Flip, Slide, and Match the Colors to Beat the Clock - 4 Game Modes - Multiplayer Fun","Flipslide Game is an electronic handheld game that requires players to flip, slide, and match the colors to beat the clock in four different game modes.
+It is suitable for both single and multiplayer play.","Flipside is an addictive, multi-player puzzle game of skill!
+Flip, slide & match the colors to beat the clock.
+Four thrilling game modes including, Speed Mode, Multiplayer Mode, Level Mode and Memory mode make challenging yourself or playing with friends a fun distraction for everyone!
+Play at home, on the road, or wherever you'd like!
+Recommended for ages 8+."
+Instruction: Correct the transcription of an excerpt containing errors. <GIST> Input: I got got charged interest on ly credit card but I paid my pull balance one day due date. I not missed a pavement year yet. Man you reverse the interest charge?,"I got charged interest on my credit card but I paid my balance one day before the due date.
+I haven't missed a payment in a year yet.
+Can you reverse the interest charge?","I was charged interest on my credit card but I paid my balance on the due date.
+I haven't missed a payment year yet.
+Can you reverse the interest charge?"
+Instruction: Create a daily itinerary based on the given information. <GIST> Input: Our family is looking for a 9-day Morocco trip that has light to moderate activity levels.,Our family is looking for a 9-day Morocco trip that has light to moderate activity levels.,"1- DAY 1: MARRAKECH Arrive in time to meet your fellow travelers for a welcome gathering this evening.
+Your arrival transfer is included.
+2- DAY 2: MARRAKECH/OUARZAZATE Wind past red slopes and green terraces as we make our way south through the stunning valleys of Morocco’s High Atlas Mountains, stopping to enjoy a picnic lunch beside a sparkling river.
+Arrive in Ouarzazate, known as the “gateway to the Sahara,” and step behind the scenes at a film studio to see how the surrounding dunes have starred on the silver screen.
+3- DAY 3: OUARZAZATE/MERZOUGA Today, travel between jagged peaks and palm oases toward the desert town of Merzouga.
+Settle into our hotel near the incredible Erg Chebbi, a sweeping sea of dunes formed by wind-blown sand.
+As the sun sets, savour a traditional Amazigh dinner, then spread a blanket on the sand for an evening of desert stargazing.
+4- DAY 4: MERZOUGA This morning, hop aboard a 4x4 and ride across the dunes to discover fossils left behind by an ancient sea, and be entranced by Gnaoua musicians in a local village.
+Return to the hotel for free time to cool off in the pool.
+Enjoy a tasty Amazigh dinner, then gather around a glowing bonfire for a storytelling session.
+5- DAY 5: MERZOUGA/DADES GORGE Venture into the rugged landscape of the Dades Gorge, a dramatic and colourful valley carved by the waters of the Dades River.
+Visit a local village for"
+Instruction: A helpful writing exercise is writing a story without using adjectives or adverbs. This will help you learn to use other words and phrases to describe what you are trying to say. Here are some examples: <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"The trees were silhouetted against the sky.
+The wind was blowing.
+The leaves were rustling.
+The grass was waving.
+The flowers were nodding.
+The birds were singing.
+The bees were buzzing.
+The squirrels were running.
+The rabbits were hopping.
+The deer were grazing.
+The wolves were howling.
+The moon was rising.
+The stars were shining."
+Instruction: Describe the responsibilities of the given job. <GIST> Input: Security Officer,"A Security Officer is responsible for providing security for a building or event.
+They may be responsible for patrolling the premises, enforcing security protocols, and responding to any security breaches.
+They may also be responsible for coordinating security personnel and equipment, such as cameras, alarms, and other security equipment.","A security officer maintains a safe environment on behalf of their employers.
+They ensure the staff, customers, visitors and business premises are secure.
+They patrol perimeters, use surveillance equipment to monitor activity and perform security checks required for visitors to the site."
+"Instruction: Design an outline for a blog post based on the given information and list the sections accordingly. <GIST> Input: This blog post is going to about making a list of last-minute gift ideas. Also, the tone of the post is going to be relaxed and casual.","This blog post is about making a list of last-minute gift ideas.
+The tone of the post is relaxed and casual.","Section: Gift card to a favorite restaurant or store Section: Movie tickets Section: A massage or mani/pedi Section: A fun game console Section: Books Section: Candles, flameless candles Section: Portable battery charger for phones/tablets Section: Water filter pitcher Section: Personalized items with photos/artwork Section: Favorite team gear (hat, sweatshirt) Takeaway: Don't stress about out running out of time to buy, make a gift."
+Instruction: Recommend some helpful activities or conversation starters to use at meetups to break the ice. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"- “Let me tell you something very interesting...” (nature, history, ecology, language,geography etc) - Joke (neutral not abrasive) - ask for help with something - ask open ended questions"
+"Instruction: Decide if the given email belongs to the Promotions or Social category. <GIST> Input: Subject: You have an invitation Email: Hi, I'd like to join your LinkedIn network.",No,Social
+"Instruction: An evaluation of the article's quality should be carried out. In order to do so, you should review the quality of the writing and the explanation of the topic. <GIST> Input: The 20th century saw a revolution in music listening as the radio gained popularity worldwide and new media and technologies were developed to record, edit and distribute music. Music performances became increasingly visual with the broadcast and recording of performances. 20th-century music brought new freedom and wide experimentation with new musical styles and forms that challenged the accepted rules of music of earlier periods. The invention of musical amplification and electronic instruments, especially the synthesizer, in the mid-20th century revolutionized classical and popular music, and accelerated the development of new forms of music.","The 20th century saw a revolution in music listening as the radio gained popularity worldwide and new media and technologies were developed to record, edit and distribute music.
+Music performances became increasingly visual with the broadcast and recording of performances.
+20th-century music brought new freedom and wide experimentation with new musical styles and forms that challenged the accepted rules of music of earlier periods.
+The invention of musical amplification and electronic instruments, especially the synthesizer, in the mid-20th century revolutionized classical and popular music, and accelerated the development of new forms of music.","The article is well-written and researched, and provides a good overview of the topic."
+"Instruction: Desk jobs require writing a lot of emails, so it isn't surprising we get tired of repeating ourselves. Come up with several synonyms for the given word. <GIST> Input: Sincerely",Sincerely,"Best regards, All the best, Cheers, Best"
+Instruction: Make a list of common phrases for the given section of the paper. <GIST> Input: Introduction,Introduction,"1-... is an important component of... 2- Central to the discipline of... is... 3- Recent developments in... have shown the need for... 4- The study build on... and contributes to... 5- Until now, has only been applied to..."
+"Instruction: You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one. <GIST> Input: A research study has been conducted to determine if exercise really can ""boost"" your metabolism.",Health,You Will Not Believe The Results Of A Recent Study On Exercise And The Metabolism!
+Instruction: Design a simple training challenge on Strava that everyone could attend. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"This month, push yourself to log 30 hours of whatever activities get you stoked to move.
+Carve out time for yourself and your health and get out there for less than one hour a day – or go long on the weekends to mix it up.
+It doesn’t always have to be your most all-out effort, yoga or walks count for just as much.
+Commit to consistency to earn this time-intensive trophy."
+Instruction: Regex is a set of characters that define a search pattern. This kind of pattern is usually used by string-searching algorithms to find or replace strings or to validate inputs. Convert the natural english text to regex. <GIST> Input: Match a valid ip address,Yes,"(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9]).)3(?
+:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])$"
+"Instruction: Give the provided brand a motto to use as a part of its marketing strategies. <GIST> Input: The Ice cream shop is a small, quaint shop located in the heart of the historic district. They offer a variety of ice cream flavors, as well as Italian ice, gelato, and sorbet. The shop has a few tables and chairs, but most of their business is to-go. They offer a loyalty program where you can get a free scoop of ice cream after 10 purchases.","The Ice Cream Shop is a small, quaint shop located in the heart of the historic district.
+They offer a variety of ice cream flavors, as well as Italian ice, gelato, and sorbet.
+The shop has a few tables and chairs, but most of their business is to-go.
+They offer a loyalty program where you can get a free scoop of ice cream after 10 purchases.","- It's a scoop of friendly!
+- Come in and have a treat!
+- For a sweet treat, stop by and see us."
+Instruction: Design a medium-level sudoku puzzle. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,| | | | | |6|1|4|9| | |8| | |1|3| | | | | | |6|4|2| |7| | | |7| | |9| | |4|3| | |3|6| | | | |5|9|1| | |9|5| |8|1| | |7| | | | |6| |2|9| |5| |1| | |5|4| |8|6| | |6|5|2| | | | |7| |
+Instruction: Make a list of snacks and foods to serve as party snacks on a game day! <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,- Classic Chocolate Cake - Buffalo Chicken Sliders - Smoky Oven-Fried Chicken - Classic Hot Crab Dip For A Crowd - Potato Crust Breakfast Pizza - Muffin Tin Deviled Eggs
+Instruction: Write down antonyms for the given word. <GIST> Input: laureating,laureating,"discrediting, humiliating, dishonoring, shaming"
+"Instruction: Invent a new word based on a description of the word. <GIST> Input: The feeling of knowing, while you are still in the moment, that something occurring will be remembered forever.",The feeling of knowing that something that is happening right now will be remembered forever.,mnemonty
+"Instruction: Summarize the article you have been given in a brief manner. <GIST> Input: Mathematics and art are related in a variety of ways. Mathematics has itself been described as an art motivated by beauty. Mathematics can be discerned in arts such as music, dance, painting, architecture, sculpture, and textiles. This article focuses, however, on mathematics in the visual arts. Mathematics and art have a long historical relationship. Artists have used mathematics since the 4th century BC when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions conjectured to have been based on the ratio 1:<unk> 2 for the ideal male nude. Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence. In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the golden ratio in art. Another Italian painter, Piero della Francesca, developed Euclid's ideas on perspective in treatises such as De Prospectiva Pingendi, and in his paintings. The engraver Albrecht Dürer made many references to mathematics in his work Melencolia I. In modern times, the graphic artist M. C. Escher made intensive use of tessellation and hyperbolic geometry, with the help of the mathematician H. S. M. Coxeter, while the De Stijl movement led by Theo van Doesburg and Piet Mondrian explicitly embraced geometrical forms. Mathematics has inspired textile arts such as quilting, knitting, cross-stitch, crochet,","The article discusses how mathematics has been used in the visual arts.
+It starts with the 4th century BC, when the Greek sculptor Polykleitos wrote his Canon, prescribing proportions based on the ratio 1:2 for the ideal male nude.
+Persistent popular claims have been made for the use of the golden ratio in ancient art and architecture, without reliable evidence.
+In the Italian Renaissance, Luca Pacioli wrote the influential treatise De divina proportione (1509), illustrated with woodcuts by Leonardo da Vinci, on the use of the","This article discusses the relationship between mathematics and art, with a focus on visual arts.
+It describes how artists have used mathematics since ancient times, and how mathematics has inspired various textile arts."
+"Instruction: You will be asked to answer the following question as part of the LinkedIn Skill assessments. <GIST> Input: You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?","Push notifications are a feature of our project.
+We have two branches named push-notifications: master and push-notifications-beta.
+We want to print out notifications from the master branch.
+How can we do that?",use git show refs/head/push-notifications
+"Instruction: Categorize the given magazine based on its content into one of the categories: Politics, Entertainment News, Tech News, Business News, Parenting & Kids, Health & Healing, Cooking, Food & Wine, and Arts & Literature, <GIST> Input: Inc.",,Business News
+"Instruction: A job description is a document that clearly states the requirements, duties, responsibilities, and skills required to perform a specific role. You need to write a job description based on the given information. You should describe responsibilities and duties in your job description in a logical order. Remember that potential employees often get their first impression of your company from your job description. So, the job description should convey the attractiveness of your company. <GIST> Input: Company: [Company name] Job: Software Engineer Job Responsibilities: Receive and perform code reviews with other engineers. Write unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest. Work collaboratively with fellow software engineers to build features requested by business stakeholders. Participate in Agile teams to develop, test, and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark. Diagnose, debug, and perform root cause analysis of issues and defects. Skills and experience that will lead to success: Experience with a modern software programming language. We use Python, and Pyspark extensively. Experience with cloud systems like AWS or Azure Experience writing SQL queries Strong written and verbal communication skills Eagerness to work in a highly-collaborative environment Some visualization experience such as Tableau or PowerBI is helpful","I would like to work at your company because it is a great place to learn and grow.
+The company has a great culture, and I am excited about the opportunity to contribute to it.","Software Engineer [company name] is looking for a self-motivated software engineer to join our team.
+We're a team of engineers and data scientists who work with large-scale data processing systems such as Apache Spark and Amazon Redshift to analyze data in the cloud.
+You'll be responsible for receiving and performing code reviews with other engineers, writing unit, integration, and end-to-end tests to verify functionality using automated testing frameworks such as Pytest, working collaboratively with fellow engineers to build features requested by business stakeholders, participating in Agile teams to develop, test and debug complex data processing pipelines and data analysis applications using big data processing systems such as Apache Spark.
+In addition to being able to diagnose, debug, and perform root cause analysis of issues and defects when needed, we're looking for someone with some visualization experience (Tableau or PowerBI) who can bring their own ideas about how best use these tools on a project.
+Skills that will lead to success include: Experience with Python programming languages; experience with cloud systems like AWS or Azure; experience writing SQL queries; strong written communication skills; eagerness to work in a highly collaborative environment;"
+"Instruction: Verify the correctness of the given statement. <GIST> Input: ""For all integers j and k, if j and k are odd, then jk is odd.""",True,True
+"Instruction: Rewrite the given text and correct grammar, spelling, and punctuation errors. <GIST> Input: If you'd told me year ago that today I would finish a marathon, I would of laughed. Your support had a huge affect on me!","Thank you for your support!
+I'm so grateful for your encouragement and motivation.
+I'm looking forward to the next challenge.","If you'd told me a year ago that today I would finish a marathon, I would have laughed.
+Your support had a huge effect on me!"
+"Instruction: Write a review based on the given information. <GIST> Input: - Product: Persil Discs Laundry Detergent Pacs, Original Scent, High Efficiency (HE) Compatible, Laundry Soap, 62 Count - Sentiment: Positive",Positive,"I love this brand of soap it's always gotten my kids' clothes clean.
+When I'm done washing with the soap my kids is closed look feel and smell and feel clean and I like that that's what I want is to be able to wash my kids' clothes and not stress that it didn't come out clean or it's still kind of stinks or it just didn't seem like it washed very well.
+And would this pod of soap it's really easy to use I just put two pods in the wash and if it's a big wash and my kids' clothes are really dirty I just use three and it gets my kids's clothes washed the first time and I really like that.
+I think it's definitely worth the money.
+I am glad that I purchased it.
+It works so well.
+I love using it.
+It's a really good buy for me and for getting my family's clothes clean especially my kids' clothes clean.
+Great buy!"
+"Instruction: Choosing a name for your product or business YouTube channel is an important part of the process. Based on the description of the product or business, you should come up with some interesting names. Take some time to brainstorm your ideas. <GIST> Input: Here you will find videos and content that will help students prepare for the application process to graduate schools as well as how to apply to graduate schools","This content is designed to help students prepare for the application process to graduate schools.
+It includes videos and content that cover topics such as writing a personal statement, preparing for interviews, and more.","GradSchoolPrep, GoGradSchool, GradSchoolVidz, Apply2Gradschool"
+Instruction: Provide instructions for the given exercise. <GIST> Input: Leg Raises,30,"To start toning your abs by hitting up the lower abdominal muscles, Riggins suggests 30 seconds of leg raises.
+Here's how: Turn on your back with legs straight and your feet and ankles together.
+Raise your legs up and down in a vertical position from your body, while keeping your belly button.
+Slowly bring legs back down, but if that is too difficult, tuck your knees.
+(And be careful not to strain your lower back!)"
+Instruction: List the personality traits that are required to be successful in the given job. <GIST> Input: Social Media Marketer,"A Social Media Marketer is responsible for creating and managing content on social media platforms, such as Facebook, Twitter, Instagram, and LinkedIn.
+They are responsible for creating engaging content that attracts and retains customers, as well as analyzing data to identify trends and optimize campaigns.
+They also work with clients to develop strategies and campaigns that meet their goals.",- Engaging with people - Thinking creatively - Following trends
+Instruction: Give students tips on how to keep their nerves under control during class presentations. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Everyone gets a little nervous when speaking in front of a group.
+That’s normal.
+But the more preparation you’ve done—meaning plenty of researching, organizing, and rehearsing—the more confident you’ll be.
+Preparation is the key.
+And if you make a mistake or stumble over your words, just regroup and keep going.
+Nobody’s perfect, and nobody expects you to be."
+"Instruction: You should take the time to read the situation and problem carefully and give the best advice you can. <GIST> Input: I'm roadtripping down New Zealand with a friend and he is driving me insane. He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING. We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation. He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him. Honestly, he is bringing some seriously bad vibes to everything and it's ruining my trip. We don't have anything booked in yet for the South Island, so I'm planning to ditch him in Wellington at the ferry. Probably book my own car in Picton and just relax alone for the rest of the trip. (Just thinking about it is such sharp relief that it makes me feel emotional. I'll pay whatever price I have to just to get away from him.) Obviously telling him he is ruining my trip with his negative energy isn't the best way to approach this. Any advice for the best approach so we can split amicably? Or at least not have an argument that ends with very hurt feelings?","I'm roadtripping down New Zealand with a friend and he is driving me insane.
+He hasn't enjoyed all the tours we've been on and doesn't want to chat about ANYTHING.
+We're a week into our trip and this is the quietest I've ever been when hanging out with another person as he rebuffs all my attempts at conversation.
+He wears his airpods in the car and around the accommodation - not that I've kept trying to talk to him.
+Honestly, he is bringing some seriously bad vibe","I would be as honest as you can while being nice.
+Next time you’re both in the hotel or wtv just say “hey man, I was thinking about when we get to X—it seems like we like to travel really differently and I think it’s stressing us both out, so how do you feel about splitting up after that stop?”"
+Instruction: We need to write a thematic tweet to share company news and facts. Please take a careful look at the facts and details provided and create a tweet based on them. <GIST> Input: - news: Applications for summer internships are open now - Start with a thematic tie-in to Halloween,"The most effective way to communicate the news is to start with a thematic tie-in to Halloween.
+This will help to create a sense of urgency and excitement.
+Then, provide a clear call to action, such as applying for summer internships.
+Finally, emphasize the importance of the internship program and the impact it can have on the applicant's career.","Halloween is right around the corner, and we're celebrating with some exciting news: applications are now open for our summer internships!
+If you want to work with us this summer, we'd love to hear from you.
+We're looking for people who are passionate about [company name], and committed to helping us grow.
+If that sounds like you, check out all the details on our website: [website address]."
+"Instruction: In relation to the given weather scenario, give some tips on how to adjust the travel plans with it. <GIST> Input: a sudden temperature change","A sudden temperature change can cause a variety of health problems, including heat stroke, dizziness, confusion, and difficulty breathing.","- Make sure that you have a good variety of options, and pack for the weather of your destination.
+- Rapid temperature changes can have major impacts on your body.
+Make sure you are aware of your particular responses to temperature change and pack accordingly.
+- Make sure to pack ointments, creams and lotions to help keep your skin healthy while you are on the go.
+- With extreme heat, you may experience rash, fainting, headaches, and fatigue as well as nausea, sweating, and loss of coordination.
+Be particularly aware of heat exhaustion and heat stroke as these are serious medical conditions that can have serious consequences.
+In cold climates, be aware of frostbite and hypothermia, intense shivering, goosebumps, difficulty using your hands, and false sense of warmth can indicate a developing cold illness."
+"Instruction: Using the provided topic as a starting point, brainstorm ideas for videos that can be made about it on YouTube. <GIST> Input: In spite of the fact that procrastination feels bad to you, why do you do it?","Despite the fact that procrastination feels bad to you, why do you do it?",+ The reason why you procrastinate + A documentary about procrastination + How to quit procrastination + Recording people talking about their procrastination habits + Interview people while they are procrastinating + People who have failed to accomplish their New Year's resolutions explain why
+Instruction: Prepare an email signature template for the given person or company. <GIST> Input: a graduate student of computer science,A graduate student of computer science is a student who is studying computer science at a postgraduate level.,[Your name] [Your degree] in Computer Science [Your university] Website: [Your website] ORCID ID: [Your ORCID ID]
+Instruction: Provide a list of the skills that may help you find the job. <GIST> Input: Crew Members,"Crew Members are responsible for operating and maintaining the vessel's systems and equipment, such as navigational instruments, engines, and navigational aids.
+They also assist in the preparation of the vessel for voyages, such as cleaning and preparing the vessel for inspections.",Baking Basic math Bilingual Cash handling Cashiering Communication skills Computer literacy Computer skills Construction Cooking Customer service
+Instruction: Make a questionnaire to help hotel guests write hotel reviews. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"1- Your overall rating of this property: 2- Title of your review: 3- Summarize your visit or highlight an interesting detail: 4- Your Review: 5- What sort of trip was this?
+Business/Couples/Family/Friends/Solo 6- When did you travel?
+7- Could you say a little more about it?
+(optional) We'd love your opinion!
+Anything you can share will help other travelers choose their perfect hotel.
+Thanks.
+Hotel Style & Amenities: Does this hotel have laundry service?
+Yes/No/Not Sure Does this hotel have a game room?
+Yes/No/Not Sure Does this hotel have a sun terrace?
+Yes/No/Not Sure Is the front desk of the hotel staffed 24-hours a day?
+Yes/No/Not Sure 8- How expensive is this hotel?
+Budget/Mid-range/Luxury 9- Add a tip to help travelers choose a good room PE.g., best views, quieter floors, accessibility, etc.)
+10- Do you have photos to share?
+(optional)"
+"Instruction: Take the title of the product and extract its attributes. The attributes in this case refer to the characteristics of the products, such as their brand and color. Your answer must a list following the format of ""attribute: value"". <GIST> Input: SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B","Samsung 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Internal Solid State Hard Drive Memory Card, Maximum Speed, Thermal Control, MZ-V8P2T0B","Brand: Samsung, Style: 980 PRO, Capacity: 2TB, Hard Disk Interface: NVMe, Hard Disk Description: Solid State Hard Drive"
+"Instruction: Review the property description and tell us what is good and what is bad about it and list its key takeaways. <GIST> Input: There's real magic in combining inherently compelling Victorian architecture with a modern aesthetic. Add in an extraordinary multi-level garden & the result is the undeniable elegance of 444 29th St. The front of the home is light-filled w/ a seamless connection between living, dining & kitchen. Newly updated kitchen w/ quartz counters & upgraded appliances. A lg dining rm has a bay of windows &, when paired w/ the adjacent living rm, provides an ideal space to entertain. 2 lg bdrms on this level are at the rear. Both w/ lg closets & walk out to the garden. Stylishly remodeled full bath on this level. 3rd bdrm/2nd full bath are located on the ground floor - perfect as a guest rm, home office, fitness area, etc. The enormous garden occupies an extra deep lot & is beautifully landscaped & terraced. Laundry/storage rm, 1-car garage pkg, Tesla solar panels. Prime, flat part of Noe Valley - short walk to all that Noe has to offer. Steps from the J-Church & convenient to shuttles/freeways.","444 29th St is a stunning Victorian home located in Noe Valley.
+The home features a seamless connection between the living, dining and kitchen, as well as a large dining room with bay windows and a walk-out to the garden.
+The kitchen has quartz countertops and upgraded appliances, and the bathrooms have been stylishly remodeled.
+The ground floor is perfect as a guest room, home office, fitness area, etc.
+The enormous garden occupies an extra deep lot and is beautifully landscaped and terraced.
+Laundry/storage room, 1-car garage pkg, Tesla solar","1- Really engaging opening hook – very unique wording used here that captures the buyers' attention 2- Good use of search engine optimization (SEO) keywords, for example using the address within the description, as the address is often what a buyer will search 3- Use of too many short forms may make it harder for buyers to understand and read.
+It’s often better to improve the quality of the content vs maximizing the quantity – in this case it may have made more sense to remove some pieces and reduce the use of acronyms"
+Instruction: Give a brief summary of the movie or series' plot. <GIST> Input: Breaking Bad (TV Series 2008–2013),"Breaking Bad is a television series that aired from 2008 to 2013 on AMC.
+It was created by Vince Gilligan and starred Aaron Paul as Walter White, a meth dealer in a small town.
+The series was based on the novel of the same name by author R.D.
+Laing.","Walter H. White is a chemistry genius, but works as a chemistry teacher in an Albequerque, New Mexico high school.
+His life drastically changes when he's diagnosed with stage III terminal lung cancer, and given a short amount of time left to live: a mere matter of months.
+To ensure his handicapped son and his pregnant wife have a financial future, Walt uses his chemistry background to create and sell the world's finest crystal methamphetamine.
+To sell his signature ""blue meth,"" he teams up with Jesse Pinkman, a former student of his.
+The meth makes them very rich very quickly, but it attracts the attention of his DEA brother in law Hank.
+As Walt and Jesse's status in the drug world escalates, Walt becomes a dangerous criminal and Jesse becomes a hot-headed salesman.
+Hank is always hot on his tail, and it forces Walt to come up with new ways to cover his tracks."
+Instruction: Come up with the courses that one is supposed to take in order to be an expert in a given field. <GIST> Input: Graphic Design,"Graphic Design is a creative field that involves the use of visuals to communicate ideas and messages.
+It involves the use of typography, color, and images to create a visual identity for a company or product.
+Graphic Designers use their knowledge of typography, color, and images to create logos, posters, and other visuals that communicate effectively.
+Graphic Designers also use their knowledge of typography, color, and images to create websites, flyers, and other marketing materials.",1- Fundamentals of Graphic Design 2- Introduction to Typography 3- Introduction to Imagemaking 4- Ideas from the History of Graphic Design 5- Brand New Brand
+Instruction: You are given an algorithm or a search query about coding. Look for a code snippet related to the search query. <GIST> Input: Python loop,P,"#Print each fruit in a fruit list: fruits = [""apple"", ""banana"", ""cherry""] for x in fruits: print(x)"
+Instruction: Decide which part of speech the underlined word belongs to. <GIST> Input: school will _keep through the winter,school will keep through the winter.,verb
+Instruction: The given text must be classified as offensive or not offensive. <GIST> Input: You acted really crazy last night.,I acted really crazy last night.,offensive
+Instruction: Identify all words that match the pattern given. <GIST> Input: H_AR_,H______________________________________________________________________________________________________________________________,"haart, heard, hears, heart, hoard, hoary"
+"Instruction: The sentence you are given might be too wordy, complicated, or unclear. Rewrite the sentence and make your writing clearer by keeping it concise. Whenever possible, break complex sentences into multiple sentences and eliminate unnecessary words. <GIST> Input: If you have any questions about my rate or if you find it necessary to increase or decrease the scope for this project, please let me know.","If you have any questions about my rate, or if you find it necessary to increase or decrease the scope for this project, please let me know.","If you have any questions about my rate or find it necessary to increase or decrease this project's scope, please let me know."
+Instruction: Suggest some names for a friendly group in telegram. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"1.
+The Conversation Club 2.
+The Chatterbox 3.
+F.R.I.E.N.D.S 4.
+The Chatty Collective 5.
+The Tea Talkers 6.
+The Support Squad 7.
+The Cheerful Chums"
+"Instruction: Find the directions between the given locations. <GIST> Input: From: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, United States To: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, United States",0,"Head north on S Rowan Ave toward E 6th St.
+Turn right onto Whittier Blvd.
+Destination will be on the right."
+"Instruction: You are given two questions. Check if they are duplicates. <GIST> Input: Question1: I am trying to understand the advantages of multiprocessing over threading. I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing? Question2: I am learning how to use the threading and the multiprocessing modules in Python to run certain operations in parallel and speed up my code. I am finding this hard (maybe because I don't have any theoretical background about it) to understand what the difference is between a threading.Thread() object and a multiprocessing.Process() one. Also, it is not entirely clear to me how to instantiate a queue of jobs and having only 4 (for example) of them running in parallel, while the other wait for resources to free before being executed. I find the examples in the documentation clear, but not very exhaustive; as soon as I try to complicate things a bit, I receive a lot of weird errors (like a method that can't be pickled, and so on). So, when should I use the threading and multiprocessing modules? Can you link me to some resources that explain the concepts behind these two modules and how to use them properly for complex tasks?","I would like to know when I should use the threading and multiprocessing modules.
+I know that multiprocessing gets around the Global Interpreter Lock, but what other advantages are there, and can threading not do the same thing?","Yes, they are duplicates."
+Instruction: Enter the words that satisfy the given condition. <GIST> Input: 5 Countries that Start with S,5 Countries that Start with S,"Switzerland, Spain, Senegal, Sweden, Sudan"
+Instruction: Create a captivating Instagram caption based on the provided details. Try to think of as many captions as you can. <GIST> Input: I am sharing images of the first snow of the year taken from a window in an office,Nature Photography.,"- It's snowing!
+Here's the first snow of the year from our office windows.
+- Let the photos do the talking.
+The first snow of the year is just around the corner.
+- I know it's not snowing outside, but just seeing the first flakes of the year from our office window is enough to make me feel like winter has finally arrived.
+:D - First snow of the year and I'm in a good mood.
+Because I get to do my favorite thing: Look at pictures of snow on Instagram - The first snow of the year and I'm getting cozy in my office chair.
+- Snowpocalypse: the sweet, delicate joy of first snowfall.
+- Snow day: here's to a great start to the week!
+- Snowing in my office and I am not even mad.
+- It's a snowy day in the office.
+I'm wearing my long johns, drinking hot chocolate, and binge-watching Game of Thrones.
+What are you doing?"
+Instruction: Make a list of the pros and cons of the given decision. <GIST> Input: Implementing a Remote Working Policy,Implementing a Remote Working Policy: A Guide for Managers,"Pros: - Allowing employees to work from home can reduce their stressful commutes and increase their productivity.
+- Remote working provides greater flexibility, particularly for working parents and caregivers who have other responsibilities.
+- It's possible to hire highly creative people who live further away if they don't have to come into the office every day.
+- People who aren't distracted by office noises and regular interruptions will perform better.
+- Team members' communication skills will improve, as they will learn to communicate more effectively using email and IM, for example.
+Cons: - It may be more difficult for team members to build meaningful, productive, creative relationships with one another.
+- The organization would have to budget for equipment that team members can take home.
+- The organization may not be able to keep track of how people spend their time.
+- The company could lose control of its data, because equipment and documents are removed from the office.
+- It will be harder to schedule face-to-face meetings and provide constructive feedback."
+Instruction: Decide whether children can watch the given movie. Mention what makes it inappropriate if you think they can't. <GIST> Input: The Dark Knight (2008),"The Dark Knight (2008) is a superhero film based on the DC Comics character Batman.
+It was directed by Christopher Nolan and stars Christian Bale as Batman, Heath Ledger as Alfred Pennyworth, Gary Oldman as Commissioner Gordon, and Laurence Fishburne as District Attorney Harvey Dent.","No, children should not watch The Dark Knight.
+The movie is rated PG-13 for intense sequences of violence and action, some menace, and brief language."
+Instruction: Come up with healthy and easy dinner ideas for weeknights. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,- Chicken & Veggie Stir-Fry - Classic Chicken Noodle Soup - Low-Carb Eggplant Lasagna - Avocado Lime Salmon - Zesty One-Pot Shrimp Pasta - Grilled Filet Mignon Street Tacos - Bruschetta Pasta
+Instruction: Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,The following example uses the setfen key in a chessboard command to demonstrate a FEN example taken from the skak package documentation: documentclassarticle usepackagexskak begindocument newchessgame chessboard[setfen=r5k1/1b1p1ppp/p7/1p1Q4/2p1r3/PP4Pq/BBP2b1P/R4R1K w - - 0 20] enddocument
+"Instruction: Using a table, compare the career overviews of the given players in Major League Baseball. Use ""|"" for separating the columns in the table. <GIST> Input: Derek Jeter, Albert Pujols",Derek Jeter and Albert Pujols are both former Major League Baseball players.,| D. Jeter | A. Pujols games played | 2747 | 2746 games started | 2734 | 2704 batting average |.310 |.296 home runs | 260 | 703 runs batted in | 1311 | 2218
+"Instruction: You are provided with a description of the code, specifications, or prompts. Your help is needed in automating code generation to speed up the development process. <GIST> Input: python function to determine whether a number is prime.","def isPrime(n): if n == 1 or n == 2: return True for i in range(3, int(sqrt(n)) + 1): if n % i == 0: return False return True","def is_prime(n): if n == 1: return False for i in range(2, int(n**0.5)+1): if n % i == 0: return False return True"
+Instruction: Give some examples of what people usually say in the given social situation. <GIST> Input: when someone arrives safely,"When someone arrives safely, it is a relief.","- “Glad you made it safe and sound.” - “Good to see you got here unscathed.” - “So, bullet proof vests actually work!”"
+"Instruction: Respond to the last text in the chat using the correct emojis to convey your feelings. <GIST> Input: + Hey, how did your exams go? - They were alright. I'm just glad they're over. + Yeah, I know how you feel. I'm just glad I don't have to worry about them anymore.","Hey, how were your exams?
+They were alright.
+I'm just glad they're over.",-
+"Instruction: If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated. <GIST>",- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Hi there, I hope you're all doing well.
+I'm inviting you over for dinner on Friday night.
+Please let me know if you can make it.
+I'll be cooking your favorite dishes!
+Looking forward to seeing you,"
+"Instruction: Consider the best time of year to visit the given city, and provide your reasons for choosing that time. <GIST> Input: Sydney, Australia","The temperature in Sydney, Australia is currently 21.6 degrees celsius.","March to May: The best times to visit Sydney are between March and May and September and November.
+You’ll find more comfortable temperatures and fewer crowds — which means you can likely nab better prices on airfare, too.
+But if you want to warm up with the masses from winter back home, the average daily temperatures in January can hit highs of 30°C/86°F and lows around 20°C/67°F."
+"Instruction: Change the response to have a more empathic tone in the chat. <GIST> Input: + How are you doing? - Fine, I had a bunch of problems today. + What kind of problems?","- I had a problem with my car.
+- I had a problem with my computer.
+- I had a problem with my phone.","+ Oh, Is there anything I can help you with?"
+Instruction: Summarize the movie in a snarky way. Try to explain the movie in just one sentence. <GIST> Input: The Shining,The Shining is a horror movie.,A family's first Airbnb experience goes very wrong.
+"Instruction: Please prepare a table containing a summary of the information of the participants at the conference. <GIST> Input: The conference was called to discuss how to improve the quality of education in schools. The main speaker was Professor Crew Purdie (cpurdie@email.com), who spoke about the importance of setting high standards for students and teachers. He said that schools should be places where students can learn and be challenged. Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com). The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students. The parent spoke about the need for parents to be involved in their children's education. There was also a discussion about the importance of funding for schools.","Professor Crew Purdie (cpurdie@email.com) spoke about the importance of setting high standards for students and teachers.
+He said that schools should be places where students can learn and be challenged.
+Other speakers included Teacher Oliver Malachi (oliver@email.com) and Parent Kolby Reese (kolbyreese82@email.com).
+The teacher talked about the need for teachers to be well-prepared and to have high expectations for their students.
+The parent spoke about the need for parents to be involved in their children's education.
+There was also a discussion about",Name | Email | Occupation Crew Purdie | cpurdie@email.com | Professor Oliver Malachi | oliver@email.com | Teacher Kolby Reese | kolbyreese82@email.com | Parent
+Instruction: Come up with an interesting idea for a new movie plot. Your plot should be described with a title and a summary. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"The Cat burglars.
+A group of criminals specializes in stealing from high-end residences.
+They use their knowledge of cats to help them break in and avoid detection.
+However, one member of the group is a police officer working undercover to bring them down."
+"Instruction: Based on the information provided, you need to estimate the average summary for the given job. <GIST> Input: Data entry clerk in United States",Data entry clerk in United States.,$17.58 Per hour
+"Instruction: Using a given amount, determine an appropriate tip. <GIST> Input: 14% tip on $47.50",$47.50,amount of tip = $6.65 amount with tip = $54.15
+"Instruction: One or more jobs can be run automatically by a workflow. The workflows are defined in the repository as YAML files and will run if an event occurs in the repository, as well as manually, or on a certain schedule. Bring an example of a workflow that demonstrate the CI/CD features of GitHub Actions. <GIST>",- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Using scripts to test your code on a runner is a common example.
+When this workflow is triggered, it automatically runs a script."
+Instruction: Suggest some product bundles that are often purchased with a given product. <GIST> Input: MacBook Air,"The MacBook Air is a powerful laptop that offers a sleek design, powerful performance, and excellent battery life.
+It has a 13.3-inch display with a resolution of 2560 x 1600 pixels, and a powerful Intel Core i5 processor.
+It also has 8GB of RAM and 256GB of storage.","MacBook Air, MacBook Air sleeve, MacBook Air case, MacBook Air external drive"
+Instruction: Please provide us with a list of the best conservation starter questions related to the weather. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"1.
+Beautiful day, isn't it?
+2.
+Can you believe all of this rain we've been having?
+3.
+It looks like it's going to storm.
+4.
+We couldn't ask for a nicer day, could we?
+5.
+How about this weather?
+6.
+It's so nice out today, isn't it?
+7.
+The weather's nice today, right?
+8.
+It’s freezing today!
+Hopefully it doesn’t snow.
+9.
+Wow, it’s really hot/cold for this time of year.
+10.
+It’s really been pouring all day, huh?"
+Instruction: Create a template in markdown to create scope for Jira tickets. Members should use this template as a checklist to ensure they have included all the necessary information when creating a ticket. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"# TO SCOPE THIS TICKET: [] create a descriptive title [] complete TBDs below [] assign epic to this ticket [] create relevant linking relations [] delete this section # DELETE ME AND ABOVE!
+##  Story We need to TBDTASK from TBDRESOURCE in order for TBDUSER to TBDACTION ##  Acceptance Criteria - AC1 - AC2 ##  Resources - [PLANNINGDOC1](WWWDOTEXAMPLEDOTCOM) - [FIGMADOC1](WWWDOTEXAMPLEDOTCOM) - [TECHDOCUMENTATION1](WWWDOTEXAMPLEDOTCOM) - [TECHDOCUMENTATION2](WWWDOTEXAMPLEDOTCOM)"
+"Instruction: Estimate the cost of supplies required to create the given project and calculate the total cost. <GIST> Input: DIY Water Chiller Required items are: Ice-maker, Icebox/cooler, Temperature regulator, Aquarium pump x2, 12V power supply",The DIY Water Chiller requires the following items: - Ice-maker - Icebox/cooler - Temperature regulator - Aquarium pump x2 - 12V power supply,Ice-maker ($90) Icebox/cooler ($17) Temperature regulator ($16) Aquarium pump x2 ($13) 12V power supply ($8) Total cost = $144
+Instruction: Write a short analysis of the cinematography in the movie. <GIST> Input: Dead Poets Society,The movie Dead Poets Society is a drama.,"'Dead Poets Society' uses film techniques such as camera angles and camera techniques to help emphasise certain emotions between each character.
+The Film techniques are used to help the audience understand the theme, character, emotion and setting of a specific scene.
+All movies use Film Techniques to help the audience join in the experience and share the emotions that occurring in the film.
+Film techniques used in this film help shape meaning and give a better understanding of the relationship between the characters in the film.
+Although this film does not only use film techniques to emphasize the relationship of only characters, it uses it to emphasizes the relationship of characters with the themes of the film such as, poetry, carpe diem (seize the day), The school etc."
+Instruction: Plan an agenda for the daily standup meetings. Assign a time duration to each topic on the agenda. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"[10 min] Status check - Current and upcoming work - Have spare bandwidth - Any blockers?
+[5 min] Big project status + general updates [5 min] Discuss blockers, otherwise social time [2 min] Add follow Ups"
+Instruction: How would you describe the meaning of this lyrics? Describe some of the metaphors. <GIST> Input: My lover’s got humor She’s the giggle at a funeral Knows everybody’s disapproval I should’ve worshipped her sooner,My lover’s got humor She’s the giggle at a funeral Knows everybody’s disapproval I should’ve worshipped her sooner,"Instead of using a straight-forward line like, “she is funny,” the writer opts for the metaphoric version, “she’s the giggle at a funeral.” This is a powerful metaphor stating that the writer's lover is so full of humor that even in really sad moments, she finds a way to lighten the moment."
+Instruction: Design a syllabus for the given course. Students should be given a list of the chapters with brief explanations of each chapter's purpose. <GIST> Input: Programming for Everybody (Getting Started with Python),Programming for Everybody: Getting Started with Python,"- Chapter One - Why we Program?
+These are the course-wide materials as well as the first part of Chapter One where we explore what it means to write programs.
+We finish Chapter One and have the quiz and first assignment in the third week of the class.
+Throughout the course you may want to come back and look at these materials.
+This section should not take you an entire week.
+- Installing and Using Python In this module you will set things up so you can write Python programs.
+Not all activities in this module are required for this class so please read the ""Using Python in this Class"" material for details.
+- Chapter One: Why We Program (continued) In the first chapter we try to cover the ""big picture"" of programming so you get a ""table of contents"" of the rest of the book.
+Don't worry if not everything makes perfect sense the first time you hear it.
+This chapter is quite broad and you would benefit from reading the chapter in the book in addition to watching the lectures to help it all sink in.
+You might want to come back and re-watch these lectures after you have funished a few more chapters.
+- Chapter Two: Variables and Expressions In this chapter we cover how a program uses the computer's memory to store, retrieve and calculate information.
+- Chapter Three: Conditional Code In this section we move from sequential code that simply runs one line of code after another to conditional code where some steps are skipped.
+It is a very simple concept - but it is how computer software makes ""choices"".
+- Chapter Four: Functions This is a relatively short chapter.
+We will learn about what functions are and how we can use them.
+The programs in the first chapters of the book are not large enough to require us to"
+"Instruction: You are given a question and two possible answers. The task is to evaluate each answer and determine if it is correct. If incorrect, explain why. <GIST> Input: Is there a way of reading one single character from the user input? For instance, they press one key at the terminal and it is returned (sort of like getch()). I know there's a function in Windows for it, but I'd like something that is cross-platform. Answer 1: Here's a link to the ActiveState Recipes site that says how you can read a single character in Windows, Linux and OSX : https://code.activestate.com/recipes/134892/ Answer 2: if you just want to hold the screen so you can see the result on the terminal just write <unk> input()<unk> at the end of the code and it will hold the screen","The first answer is correct.
+You can use the ActiveState Recipes site to read a single character in Windows, Linux and OSX.
+The second answer is correct.
+You can use the ActiveState Recipes site to read a single character in Windows, Linux and OSX.","Answer 1 is correct.
+Answer 2 is incorrect because it does not answer the question.
+The user is asking how to read a single character."
+"Instruction: Design a soothing pastel color palette for your slides. Pastel colors generally come across as pretty and delicate, so you’ll want to make sure your presentation calls for a similar mood. Choose up to five colors or color codes. <GIST>",- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,Color codes: #FDB3AE #CAE4E2 #FBDF74
+Instruction: Convert the given HTML into Markdown format. <GIST> Input: <unk> code>Use <unk> code<unk> in your Markdown file.<unk> /code>,Use the following code in your Markdown file.,Use code in your Markdown file.
+Instruction: Make a list of the top places in the U.S. to visit at the given time. <GIST> Input: November,31 days,"1- For mild temperatures and local brews: San Diego 2- For the last gasp of fall foliage: Manchester, VT 3- For unexpected art and mountain views: Las Vegas 4- For ice skating and family fun: Chicago 5- For a waterfront Thanksgiving experience: Key West, FL 6- For great food and ghost tours: Savannah, GA"
+"Instruction: You are given a sentence in first-order logic. Translate it into natural language. <GIST> Input: <unk> x<unk> y(soldier(x)<unk> general(x,y))","soldier, general","There is someone (x) such that if if he is a soldier, then he is general of everyone."
+"Instruction: There are many creative projects we can build at home that are related to the given theme, so let's list some of them. <GIST> Input: Theme: Circuits",Science,1- Build a UV Level Monitoring Budgie - Using IoT and Weather Data APIs 2- DIY Weather Station With ESP32 3- Modular Display Clock 4- Overengineered Fume Extractor Project
+"Instruction: A confirmation email should be written appropriately for the situation. <GIST> Input: A meeting has been scheduled, and the sender expects the other to review the slides.",The sender expects the recipient to review the slides before the meeting.,"Hi [name], I hope you're having a great week so far.
+I wanted to follow up on our meeting and let you know that we've scheduled a time for you and your team to come in next week.
+I'll have some slides prepared for you to review, and if there are any questions, I'd be happy to answer them!
+Just email me back at [email] when you have a moment.
+Thanks so much for all of your help with this project—we're excited to get started!"
+"Instruction: Classify the questions in the FAQ into Finding policy details, Change account settings, Filing a claim and viewing status, or Cancelling coverage. <GIST> Input: Could you deposit money into my account rather than mailing me a physical cheque?",Could you please deposit the money into my account instead of mailing me a physical cheque?,Change account settings
+"Instruction: During writing, we added an asterisk for the word that did not come to mind. You will need to provide several examples to demonstrate all the words that can be used in the sentence instead of the asterisk. <GIST> Input: we * to know",We want to know.,"1- We need to know.
+2- We want to know.
+3- we wanted to know.
+4- We deserve to know why.
+5- We ought to know."
+Instruction: Come up with words that rhyme with the given word. <GIST> Input: instruct,instruct,"abduct, bucked, chucked, conduct, construct, deconstruct, deduct, destruct, ducked, duct, induct, obstruct, plucked, reconstruct, shucked, sucked, trucked, tucked"
+"Instruction: Provide a Java solution to the following problem. <GIST> Input: Given an integer n, return true if it is a power of three. Otherwise, return false. An integer n is a power of three, if there exists an integer x such that n == 3<unk> x. Example 1: In: n = 27 Out: true Explanation: 27 = 3<unk> 3 Example 2: In: n = 0 Out: false Explanation: There is no x where 3<unk> x = 0. Example 3: In: n = -1 Out: false Explanation: There is no x where 3x = (-1). Constraints: -231 <unk> = n <unk> = 231 - 1 Follow up: Could you solve it without loops/recursion?","Yes, it is possible.",public class Solution  public boolean isPowerOfThree(int n)  return (Math.log10(n) / Math.log10(3)) % 1 == 0;
+Instruction: Someone gives you some information about where they want to go and what they enjoy seeing and doing. Describe a proper road trip for them and find the best stops and sctivities in the way. <GIST> Input: I'm looking for a west coast road trip. My goal is to start near San Diego and travel to Los Angeles.,California,"Begin near the city of San Diego and make the first stop in coastal La Jolla.
+This upscale little village is a great a place for an overnight, a day of sunbathing at La Jolla Shores Beach, or a cocktail with a view.
+Just 20 minutes north, stop into beachy Encinitas to window shop the boutiques or sample fish tacos.
+Walk through the coastal meditation garden at the Self-Realization Fellowship or join surfers in the line-up at one of the fantastic local beaches here Just up the coast is cute little San Juan Capistrano, home to one of California’s favorite missions.
+In spring, more than 6,000 swallows migrate here from Argentina!
+As you approach LA, don’t miss swank Laguna Hills.
+Home to the one-of-a-kind Pageant of the Masters art event, Laguna is brimming with artists and charm.
+It’s a great place for an overnight.
+Plus, Crystal Cove Beach in nearby Newport Beach is one of California’s finest!
+After that, the choice is yours: Disney lovers should head directly to Disneyland in Anaheim to meet Mickey.
+To join the beautiful people and snap a photo of an iconic California scene, head to Santa Monica Pier and walk the boardwalk or ride the world’s only solar-powered Ferris wheel.
+A San Diego to LA road trip is the perfect way to enjoy all things Southern California."
+"Instruction: The topic of a YouTube post has been described and based on the information, you need to write a hook for starting the post. A catchy hook will keep your readers interested so they keep reading. It would be great if you could come up with as many hooks as you can. <GIST> Input: A video showing how to make a tasty cup of coffee",Video,"- How do you make a great cup of coffee?
+We asked a professional.
+- Real life stories of the greatest coffee shops in the world.
+- You'll definitely want a cup of this after watching it so be sure not to miss this.
+- Coffee is something most people drink every day.
+This video tells you everything about it.
+- Watch this video on 7 habits to make you a better barista."
+Instruction: A color description has been provided. Find the CSS code associated with that color. <GIST> Input: A light red color with a medium light shade of pink,"The color is called ""pinkish red"".",#DB7093
+"Instruction: Improve the article using your knowledge of the topic in order to make it more informative. <GIST> Input: The ""fair trade"" movement, also known as the ""trade justice"" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World. Such ideas have also sparked a debate on whether trade itself should be codified as a human right.","Trade justice is a movement that promotes fair trade standards for commodities produced in the Third and Second Worlds and exported to the First World.
+It also encourages the codification of trade as a human right.","The ""fair trade"" movement, also known as the ""trade justice"" movement, promotes the use of labour, environmental and social standards for the production of commodities, particularly those exported from the Third and Second Worlds to the First World.
+Such ideas have also sparked a debate on whether trade itself should be codified as a human right.
+Importing firms voluntarily adhere to fair trade standards or governments may enforce them through a combination of employment and commercial law.
+Proposed and practiced fair trade policies vary widely, ranging from the common prohibition of goods made using slave labour to minimum price support schemes such as those for coffee in the 1980s.
+Non-governmental organizations also play a role in promoting fair trade standards by serving as independent monitors of compliance with labeling requirements.
+As such, it is a form of Protectionism."
+Instruction: Discuss the origins and history of the word that has been given to you. <GIST> Input: oblique,Obliquely,"Middle English oblique, oblike, borrowed from Anglo-French oblic, oblique, borrowed from Latin oblquus ""slanting, transverse,"" from ob- ""against, facing"" + -lquus, of uncertain meaning and origin"
+Instruction: Include important study notes and key points that someone should know about the given subject. <GIST> Input: history of the USA,The United States of America was founded in 1776.,"1.
+The United States of America was founded in 1776.
+2.
+The United States Constitution was ratified in 1788.
+3.
+The United States Declaration of Independence was signed in 1776.
+4.
+The United States Bill of Rights was ratified in 1791.
+5.
+The United States of America is a federal republic."
+Instruction: Create alliterations by finding synonyms for words in the given sentence. <GIST> Input: David wears a hat everyday.,David wears a hat every day.,David dons a derby daily.
+"Instruction: For answering the chat, think of a funny response you can use. <GIST> Input: + how are you?","I'm fine.
+How about you?",- I still haven’t figured it out.
+Instruction: What sound does this make? <GIST> Input: <unk>,,ho
+"Instruction: Predict how many stars the author will give to the restaurant from a Yelp review. <GIST> Input: The reviews were great, but honestly i felt it was just ok. Seemed like a typical tourist spot were the food was mediocre. The service was ok, not great, but not the worst. The bread was very good. I ordered the muscle fries. They had a sweet Vidalia onion flavor. No need for fries bc they were soggy wo much flavor. My boyfriend ordered a pesto chicken pasta and it was again mediocre.","The reviews were great, but honestly I felt it was just ok.
+Seemed like a typical tourist spot where the food was mediocre.
+The service was ok, not great, but not the worst.
+The bread was very good.
+I ordered the muscle fries.
+They had a sweet Vidalia onion flavor.
+No need for fries bc they were soggy wo much flavor.
+My boyfriend ordered a pesto chicken pasta and it was again mediocre.",3 stars
+Instruction: Give me an idea of the mental exercises you do to inspire yourself. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,1- Identify your strengths 2- Understand you motivation style 3- Build worthiness 4- Dream ahead
+Instruction: You need to write an email to negotiate your salary. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Dear [hiring manager's name], I wanted to take a moment to thank you for the offer.
+I'm honored that you would consider me for this position, and I'm excited to be working with you.
+I know that it's not easy to get a sense of how much salary should be offered in a given situation, so I wanted to explain why I believe my skill set is worth more than the offered salary.
+My experience as a [position title] will prepare me well for this role, which requires extensive project management skills, as well as strong written communication skills and a deep understanding of the company's product offerings.
+These are all areas where I've already built up substantial experience over the past few years and am confident that they would serve me well in your company.
+I hope we can reach an agreement soon!"
+"Instruction: As part of software engineering, user stories describe what the user wants the system to do, while acceptance criteria describe the conditions a specific user story must meet. Create basic acceptance criteria based on the given user story. <GIST> Input: User story: As a user, I want to use a search field to type a city, name, or street, so that I could find matching hotel options.","A search field that allows users to type in a city, name, or street, so that they can find matching hotel options.","- The search field is placed on the top bar - Search starts once the user clicks “Search” - The field contains a placeholder with a grey-colored text: “Where are you going?” - The placeholder disappears once the user starts typing - Search is performed if a user types in a city, hotel name, street, or all combined Search is in English, French, German, and Ukrainian The user can’t type more than 200 symbols The search doesn’t support special symbols (characters).
+If the user has typed a special symbol, show the warning message: “Search input cannot contain special symbols.”"
+Instruction: Come up with some search queries on google about coding stuff. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,- binary search - pop in javascript - audio chunking algorithm
+Instruction: Develop a mental exercise that can help people manage their anxiety and explain how it works. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Submodalities Giving a physical form to your anxiety can help your mind feel more in control of it.
+In this exercise, we will visualize what anxiety looks and feels like, and learn to reduce its intensity.
+Here are the questions that you need to answer: 1- Everyone feels anxiety differently.
+Where in your body do you feel it?
+2- Now close your eyes and picture your anxiety.
+Try to give it color, shape, and temperature.
+What does it feel like?
+3- Does it move, or is it in one place?
+If it moves, tell how it is moving.
+4- Now for the good part, close your eyes and try changing this picture.
+Change how it moves.
+Slow it done shrink its size.
+Try to move it away from your body.
+Imagine it fading.
+Keep doing this until you feel like you can change how it feels.
+Changing which submodality helped you curb your anxiety?
+Was it its shape, size, or something else?
+5- Do you feel better now?"
+Instruction: The story of a movie has been described using many emojis. You need to guess the name of the movie based on the emojis. <GIST> Input: <unk> <unk>,,Harry Potter
+"Instruction: Currently, there is a chat in which people are arranging a meeting in the future. Retrieve the meeting information from the conversation. <GIST> Input: Person 1: Hey, when are you free? I'd like to meet up. Person 2: I'm free tomorrow afternoon. Person 1: Great, what time? Person 2: How about 3 pm? Person 1: I have another meeting at that time. what about 5 pm? Person 2: That works. Where should we meet? Person 1: How about the coffee shop on Main Street? Person 2: Sounds good. I've heard they have great coffee there. See you tomorrow!","Person 1: Hey, when are you free?
+I'd like to meet up.
+Person 2: I'm free tomorrow afternoon.
+Person 1: Great, what time?
+Person 2: How about 3 pm?
+Person 1: I have another meeting at that time.
+what about 5 pm?
+Person 2: That works.
+Where should we meet?
+Person 1: How about the coffee shop on Main Street?
+Person 2: Sounds good.
+I've heard they have great coffee there.
+See you tomorrow!",Date: Tomorrow Time: 5 pm Place: Coffee shop on Main Street
+Instruction: You are given a topic for an Instagram post. Help the post reach a broader audience by suggesting hashtags related to the post. <GIST> Input: Another episode of women in science is out now,"Females in science are making strides, but there's still a long way to go.",#womeninSTEM #WomenScience #science #research #stempodcast
+"Instruction: Analyze the word choice, phrasing, punctuation, and capitalization in the given email. How may the writer of this email sound to the reader? These tones include Disheartening, Accusatory, Worried, Curious, Surprised, Disapproving, Unassuming, Formal, Assertive, Confident, Appreciative, Concerned, Sad, Informal, Regretful, Encouraging, Egocentric, Joyful, Optimistic, and Excited. <GIST> Input: Hi Jen, I hope you're well. Can we catch up today? I'd appreciate your input on my presentation for tomorrow's meeting. I'd especially love it if you could double-check the sales numbers with me. There's a coffee in it for you!","Jen, I hope you're well.
+Can we catch up today?
+I'd appreciate your input on my presentation for tomorrow's meeting.
+I'd especially love it if you could double-check the sales numbers with me.
+There's a coffee in it for you!",Confident
+Instruction: Write a simple guide for uploading the bibliography database on Overleaf. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"If you already have a bibliography file that you need to use in an Overleaf project, you can upload it.
+Click the Upload icon located on top of the left panel.
+A dialog box will appear, you can either drag and drop the.bib file(s) or choose select from your computer to upload file(s) from your device.
+Once the upload process is finished you can include the.bib file in your main.tex document."
+Instruction: Design a template table for keeping track of all subscriptions. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,Service | Category | Status | Billing | Pricing | Renewal Date | Next Renewal | Monthly Costs | Yearly Costs | Nptes
+Instruction: What are the steps to using random (yet coherent) text as filler content within your Word document? <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"You can quickly add several paragraphs to your document by using =rand().
+These steps will guide you through using it: Put your Microsoft Word cursor (not your mouse cursor) where you would like random text to appear.
+It is necessary to place the cursor at the beginning of a line.
+The cursor just needs to be at the beginning, not on a blank line.
+2- Type =rand()and press Enter.
+You will now see random text added to your document."
+"Instruction: Choose an appealing title for your post. <GIST> Input: The typical avocado is over 300 calories from the oil in it. That’s the amount of calories in a large candy bar. If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn’t be a problem to eat an avocado every day. Other wise you should probably eat them sparingly.","The typical avocado is over 300 calories from the oil in it.
+That's the amount of calories in a large candy bar.
+If you get enough exercise to eat a large candy bar every day without gaining weight, it wouldn't be a problem to eat an avocado every day.
+Other wise you should probably eat them sparingly.",What will happen if you eat an avocado everyday?
+"Instruction: Translate the natural language description into a Google Sheets formula. <GIST> Input: if C7 is equal to ""U.S.A."" or ""Canada"" or ""Europe"" or ""The Americas""",The Americas,"IF (OR(C7 = ""U.S.A.""; C7 = ""Canada""); ""The Americas""; ""Europe"")"
+"Instruction: React properly to reviews from your customers. In your responses, you can highlight your business' policies and customer service. <GIST> Input: Another repeat visit and no disappointment from us. Great place for breakfast or brunch - and you won't need to eat again for awhile. The restaurant is close to the Tenderloin so be aware of your surroundings. We enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry. Portions are large and pricing is fair. I wish we could have managed a Beignet Flight! Definitely a spot to seek out. It can be crowed at times so be patient. Well worth any wait.","The restaurant is located in the Tenderloin neighborhood of San Francisco.
+It is close to the Tenderloin so be aware of your surroundings.
+We enjoyed the Succotash Omelet (at least my wife enjoyed it), the Pulled Pork Benedict and the Hangtown Fry.
+Portions are large and pricing is fair.
+I wish we could have managed a Beignet Flight!
+Definitely a spot to seek out.
+It can be crowed at times so be patient.
+Well worth any wait.","Hi [customer's name], thank you so much for the wonderful feedback.
+We’re happy to hear that you enjoyed your experience with us and that you love [restauran't name] so much!
+We’re beyond thankful for your support and can’t wait to see you back again soon!
+Thanks!"
+"Instruction: It would be helpful if you could suggest an acronym for the repository. <GIST> Input: A python framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits.",NISQpy,Cirq
+"Instruction: Provide a name for the dish given the ingredients and instructions. <GIST> Input: INGREDIENTS: 2 (5 oz) cans Bumble Bee® Solid White Albacore Tuna, drained 1 avocado 2 Tbsp Sriracha 1 Tbsp Dijon mustard 2 to 3 Tbsp celery, chopped 2 Tbsp red onion, chopped 2 green onions, chopped 1 Tbsp fresh cilantro, chopped Salt and pepper, to taste 2 heaping cups leafy green lettuce 1 cup matchstick carrots 4 (10 inch) whole wheat tortillas INSTRUCTIONS: In a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well. To assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!","Ingredients: 2 (5 oz) cans Bumble Bee® Solid White Albacore Tuna, drained 1 avocado 2 Tbsp Sriracha 1 Tbsp Dijon mustard 2 to 3 Tbsp celery, chopped 2 Tbsp red onion, chopped 2 green onions, chopped 1 Tbsp fresh cilantro, chopped Salt and pepper, to taste 2 heaping cups leafy green lettuce 1 cup matchstick carrots 4 (10 inch) whole wheat tortillas Instructions: In a medium bowl, mash together tuna and avocado until combined.
+Add in",Tuna & Avocado Wrap
+"Instruction: What is the output of the given LATEX code? <GIST> Input: <unk> documentclass<unk> article<unk> <unk> begin<unk> document<unk> First document. This is a simple example, with no extra parameters or packages included. <unk> end<unk> document<unk>",Article,"First document.
+This is a simple example, with no extra parameters or packages included."
+"Instruction: Find the answer that best describes the underlined SAT word. Select the correct option and explain the meaning of the underlined word. <GIST> Input: Despite the _cacophony, the student tried to study. A. Loud sounds B. Difficult subject C. Late hour D. Low lighting","A.
+Loud sounds","A.
+Loud sounds, Although it comes from the Greek for “bad sound,” cacophony can now also mean “an incongruous or chaotic mixture” of other things, like colors or smells."
+"Instruction: Given a real estate listing description, extract the information and details of the property from the text. The details consist of address, basic house attributes, etc. <GIST> Input: WALK TO THE BEACH FROM CAPITOLA KNOLLS! Single-level upstairs condo with your own large private deck overlooking nature. Adorable home that is move-in ready and waiting for you to put your own personal touches on. Gorgeous and well-maintained landscaped park-like setting with lush green grasses with a community pool and spa to enjoy. Desirable location...walk to Capitola Village, Gayle's Bakery, restaurants, shopping, schools or jump on Hwy 1 right around the corner.",Capitola Knolls,"-Address: ""Capitola"" -Type of home: Condo -Location: ""walk to Capitola Village, Gayle's Bakery, restaurants, shopping, and schools or jump on Hwy 1 right around the corner.""
+-House attributes: ""Single-level upstairs, large private deck overlooking nature, move-in ready home"" -Outdoor details: ""well-maintained landscaped park-like setting with lush green grasses with a Community pool and spa"""
+Instruction: Provide a cooking hack for improving the flavor of the given food. <GIST> Input: popcorn,popcorn,"Everyone knows butter on popcorn is delicious.
+But supposedly adding some soy sauce to popcorn butter makes for a next-level popcorn topper.
+According to several sites, like Food52, the addition of salty soy sauce to creamy butter brings out the savory, cheesy, and nutty flavors in popcorn."
+Instruction: Expand the given sentence and give it more details and depth. <GIST> Input: It changed my life.,It had a profound effect on my life.,The experience changed the course of my life forever.
+Instruction: Please list the courses that someone interested in the first course might like. <GIST> Input: Bitcoin and Cryptocurrency Technologies,"The main difference between Bitcoin and cryptocurrency technologies is that Bitcoin is a digital currency that is stored in a public ledger, while cryptocurrency technologies are based on cryptography and are used to facilitate transactions between users.",- Blockchain 360: A State of the Art for Professionals - Blockchain Scalability and its Foundations in Distributed Systems - Blockchain Business Models - Financial Technology (Fintech) Innovations Specialization
+Instruction: Create a list of subtopics for the given topic. <GIST> Input: Music theory,"Music theory is the study of music and its structure, including harmony, rhythm, form, and structure.
+It is an essential component of music education and performance, as it helps students understand the fundamentals of music and its structure.
+Music theory also helps students develop their musical skills and knowledge, as it provides a foundation for understanding and appreciating music.","melody, rhythm, counterpoint, harmony, form, tonal systems, scales, tuning, intervals, consonance, dissonance, durational proportions, the acoustics of pitch systems, composition, performance, orchestration, ornamentation, improvisation, electronic sound production"
+Instruction: Discover the most relevant StackOverflow questions for your search term. And output a list of their URLs. <GIST> Input: remove item in array,Remove item in array.,1- https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array 2- https://stackoverflow.com/questions/19544452/remove-last-item-from-array 3- https://stackoverflow.com/questions/15292278/how-do-i-remove-an-array-item-in-typescript 4- https://stackoverflow.com/questions/3954438/how-to-remove-item-from-array-by-value 5- https://stackoverflow.com/questions/40462369/remove-item-from-stored-array-in-angular-2 6- https://stackoverflow.com/questions/16994212/remove-an-item-from-array-using-underscorejs
+"Instruction: Based on the facts that have been provided, prove the following statement. <GIST> Input: Statement: ""For every integer k, k<unk> 2 + 2k + 1 <unk> 0"" Fact: The square of any real number is non-negative.",False,"Let k be an integer.
+Then (k + 1)2  0 because the square of any real number is non-negative.
+But (k+1)2 = k2+2k+1.
+So, by combining these two equations, we find that k2 + 2k + 1  0."
+Instruction: Choose Spotify playlists that match the given mood. Provide a link to these playlists for easy access. <GIST> Input: Feeling Good,Feeling Good: A Guide to Self-Care,- https://open.spotify.com/playlist/37i9dQZF1DX9XIFQuFvzM4 - https://open.spotify.com/playlist/37i9dQZF1DXcEKFjZJYZcc
+Instruction: Write a Jira ticket for the given task. <GIST> Input: New Employee onboarding,Employee onboarding process.,"Title: Please help our new employee get settled.
+Prepare a desk, chair, and computer for them to use.
+Create their company account, email, and temporary password.
+Grant access to company documents."
+"Instruction: Describe the content of the article in a brief manner. <GIST> Input: A study published earlier this year by Zee and her team examined the role of light in sleep for healthy adults in their 20s. Sleeping for only one night with a dim light, such as a TV set with the sound off, raised the blood sugar and heart rate of the young people during the sleep lab experiment. An elevated heart rate at night has been shown in prior studies to be a risk factor for future heart disease and early death, while higher blood sugar levels are a sign of insulin resistance, which can ultimately lead to type 2 diabetes.","The study published by Zee and her team found that sleeping with a dim light for only one night increased the blood sugar and heart rate of the young people.
+This is the first study to show that light affects sleep in adults.",A study finds that sleeping with a light pollution may increase your health risks.
+"Instruction: Create a detailed caption for an Instagram post about a discount. A proper caption should explain the product, offer the discount, and tell the user how to claim it. <GIST> Input: Product: Golang course Product description: teaching the foundational skills for building cloud services, web applications, DevOps tools, and backend development Discount: 50% How to claim: Use the coupon code: GOLANG",50% discount,"We've just launched the Golang course.
+In this course you will learn the foundational skills needed for high-paying careers involving building cloud services, web applications, DevOps tools, and backend development.
+Upon completion of the course, you will be able to build a web server that end-users can use to interact and consume as a REST API.
+Learning outcomes As a graduate you’ll be able to: 1- Articulate the advantages and disadvantages of Go compared to similar languages.
+2- Design a business case for when to develop a project in Go.
+3- Set up a Go environment.
+4- Program a basic backend using Go.
+Check out the Golang course syllabus to view the course project.
+Enroll this week and save 50% with our new course special.
+Use the coupon code: GOLANG at checkout to save 50% on your subscription to the Golang course.
+Start learning soon—this special promotion is available only until [date]."
+"Instruction: Considering the reason for the rejection, write a polite rejection letter for rejecting a candidate. <GIST> Input: Reason: You came in second",Yes,"Dear [Candidate Name], Thank you for applying to [company name]!
+We're sorry to inform you that we're going to be passing on your application.
+We were impressed with your initiative and would love to have had the opportunity to work with you.
+At this time, however, we're not able to offer any positions at our company.
+Please accept our sincerest apologies for passing on your application, and know that we remain open to working with you in the future!"
+Instruction: List a few popular songs from the given album. <GIST> Input: Back To Black,Back To Black is a rock song by the British band Queen.,- Rehab - Just Friends - Tears Dry on Their Own - Wake Up Alone - Addicted
+Instruction: Design a skill assessment questioner for R (Programming Language). <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Q1.
+How does a matrix differ from a data frame?
+Q2.
+What value does this statement return?
+unclass(as.Date(""1971-01-01"")) Q3.
+What do you use to take an object such as a data frame out of the workspace?
+Q4.
+What function joins two or more column vectors to form a data frame?
+Q5.
+What is the value of y in this code?
+x - NA y - x/1"
+"Instruction: Classify the tweet into one of the following three categories: event, demo, or news. Event is a happening, often social or public, that people attend or are aware of. Demo is a public showing or presentation of something, typically to promote or advertise it. And, news is information about recent events or happenings, especially as reported by news media. <GIST> Input: Using this tutorial, you can analyze and classify a user’s review as either positive or negative using sentiment analysis features in an existing Next.js app. We show you how to leverage language AI into your applications. Check it out <unk>",Sentiment Score: 0.5,demo
+Instruction: List some of the top real estate marketing words to add value to the listing and engage more potential buyers. <GIST>,The most common type of precipitation in the United States is rain.,"1.
+Luxurious 2.
+New 3.
+Spacious 4.
+Captivating 5.
+Move-In-Ready 6.
+Landscaped 7.
+Beautiful 8.
+Character 9.
+Custom 10.
+Pet-Friendly"
+"Instruction: We have entered the home supplies budget in the following table. Calculate the last column with the given function and rewrite the completed table. Note that, columns in a row are separated using a comma, and rows are separated using a ""|"". <GIST> Input: Item, Qty, Price, Subtotal | mango, 5, 500,? | apple, 4, 150,? | oil, 2, 1500,? Function: column2 * column 3",Total Price,"Item, Qty, Price, Subtotal | mango, 5, 500, 2500 | apple, 4, 150, 600 | oil, 2, 1500, 3000"
+"Instruction: Answer the question about the paper after reading it carefully. <GIST> Input: To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes. Question: What is English constituency parsing?",The Transformer model is able to generalize well to English constituency parsing.,"English constituency parsing is a task in natural language processing where the goal is to analyze the syntactic structure of a sentence in English.
+This can be used to understand the meaning of a sentence, or to generate new sentences with similar meaning."
+Instruction: Write a section for a blog post and try to cover all of the provided information about this section in your text. <GIST> Input: Blog Topic: 7 Fall Fashion Trends Worth Taking on Your Trip Section Title: Trusty Jeans Main point of the section: jeans can be worn all year and look good with everything.,"Trusty jeans are a great fall fashion trend that you can wear all year round.
+They look great with a variety of different tops and bottoms, and they are comfortable to wear.
+They are also very affordable, making them a great choice for anyone on a budget.","Jeans are one of the most iconic fashion items for a reason – they look great with everything and can be worn year-round.
+While this Fall, the trends lean toward a baggier fit, bringing along your favorite, trusty jeans is a must no matter where you’re headed.
+If you can’t get on board with the baggy jean trend, at least opt for a straight leg and ditch the skinnies."
+Instruction: You can easily make your holidays more eco-friendly by following these simple steps: <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"- If you prefer to buy a tree, look for local growers with advice on where to recycle.
+To complete the natural look, make ornaments from collected and dried foliage.
+- Another way to be environmentally friendly during the holidays is to use candles made with soy, ethical beeswax, and coconut wax instead of those made with petroleum-based paraffin wax.
+LED lights are also an environmentally friendly option among artificial lights.
+-Another way to reduce waste is to use brown paper grocery bags or furoshiki, which is swaddling gifts in reusable squares of cloth, rather than wrapping paper.
+- Instead of throwing away the excess food, find groups that redistribute it at epa.gov by searching for “reduce wasted food.” What’s no longer edible might be compostable."
+Instruction: Give a brief description of the book that you are given. <GIST> Input: Matilda,"Matilda is a young girl who is curious and adventurous.
+She loves to explore and discover new things.
+She is also very kind and caring, and loves to help others.","Matilda is a little girl who is far too good to be true.
+At age five-and-a-half she's knocking off double-digit multiplication problems and blitz-reading Dickens.
+Even more remarkably, her classmates love her even though she's a super-nerd and the teacher's pet.
+But everything is not perfect in Matilda's world... For starters she has two of the most idiotic, self-centered parents who ever lived.
+Then there's the large, busty nightmare of a school principal, Miss (""The"") Trunchbull, a former hammer-throwing champion who flings children at will, and is approximately as sympathetic as a bulldozer.
+Fortunately for Matilda, she has the inner resources to deal with such annoyances: astonishing intelligence, saintly patience, and an innate predilection for revenge."
+Instruction: Convert the given description to a bash command. <GIST> Input: read the first 10 lines from f,10,f.readlines(10)
+"Instruction: Compare the given item with similar products based on its properties such as price, rating, etc. For product comparison, use a table and separate the columns with ""|"". <GIST> Input: Item: iBayam Journal Planner Pens Colored Pens Fine Point Markers Fine Tip Drawing Pens Porous Fineliner Pen for Journaling Writing Note Taking Calendar Coloring Art Office Back to School Supplies, 18 Color",I would rate this product a 4.,"Product | this item | Fineliner Color Pens Set, 0.38mm Fine Tip Pens, Porous Fine Point Makers Drawing Pen, Perfect for Writing in Bullet Journal and Planner, 24 Assorted Colors | iBayam Fineliner Pens, 24 Bright Colors Fine Point Pens Colored Pens for Journaling Note Taking Writing Drawing Coloring Planner Calendar, Office School Teacher Classroom Fine Tip Marker Pens Supplies | 24 colors paint pens for journaling, Colored pens for note taking 0.4mm fineliner cute fine point smooth writing pens, Fast dry felt tip pens agenda office school teacher art markers drawing supplies Customer Rating | 4.7 out of 5 stars (87557) | 4.5 out of 5 stars (2099) | 4.7 out of 5 stars (8666) | 4.5 out of 5 stars (396) Price | $6.39 | $7.66 | $8.99 | $10.99 Sold By | Qi US | ai-natebok | Qi US | MingNor Color | Black, Grey, Red, Blue, Magenta, Pink, Purple, Violet, Pale Yellow, Yellow, Orange, Raw Sienna, Sap Green, C Green, O Green, Lake Blue, Burnt Sienna, Crimson | 24 Color | 24 Colors | 24 colors Item Dimensions | 6.6 x 6.2 x 0.6 inches | 6.3 x 5.8 x 0.6 inches | 6.6 x 6.2 x 0.6 inches | 6.22 x 0.31 x 0.31 inches Point Type | Fine | Extra Fine | Fine | Fine"
+"Instruction: A user story is an informal, general explanation of a software feature written from the perspective of the end user or customer. Write a user story for a given software. <GIST> Input: Gmail","Gmail is a web-based email service that offers features such as free email, calendar, and contact management, as well as secure data storage.","As a user, I want to be able to recover the password to my account, so that I will be able to access my account in case I forgot the password."
+Instruction: Please write the Excel function name associated with each description. <GIST> Input: - Returns the number of days between two dates - Returns the starting position of a text string within another text string. - Returns the number in the middle of the set of given numbers,"The function returns the number of days between two dates.
+It returns the starting position of a text string within another text string.
+It returns the number in the middle of the set of given numbers.",- DAYS - FIND - MEDIAN
+Instruction: Curate a Spotify playlist based on the vibe. Publish this playlist as a song list. <GIST> Input: Vibe: coding on weekend,"I love coding on the weekend!
+It's so much fun to come up with new ideas and solve problems that I didn't have time to solve during the week.",- Candles by Jon Hopkins - Train from Paris by Mindtrap - Intro by The xx - Take Me Back by WYS - Riverline by Tor - The Dream by SwuM
+"Instruction: For a quick and efficient office workout, suggest a short routine. <GIST>",- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"Desk pushups: 20 reps.
+Seated knee-to-chest: 10 reps. Squats: 10 reps.
+Desk plank: 30 seconds.
+Seated flutter kicks: 10 reps on each side.
+Romanian deadlifts: 10 reps.
+Jumping jacks: 20 reps."
+Instruction: We have described a scene from a movie that we have seen in the past. Find out what movie it is. <GIST> Input: A choice has to be made between picking the red pill or the blue pill,"The red pill is more effective in treating depression, while the blue pill is more effective in treating anxiety.",Matrix
+"Instruction: You are given a Python command and are required to convert it into Ruby. <GIST> Input: print(""Hello World!"")","print(""Hello World!
+"");","puts ""Hello World!"""
+Instruction: Think of some series or movies that would be enjoyable for someone who liked the given series. <GIST> Input: Squid Game,"Squid Game is a fun and challenging game that requires quick thinking and reflexes.
+Players must use their squid to move around the board, avoiding obstacles and collecting points.
+The game is designed to be addictive and challenging, with a variety of levels and game modes to keep players engaged.",- 3% - Clickbait - Circle - Hellbound - Sweet Home
+"Instruction: What other Amazon products might interest someone who visited the given product? <GIST> Input: Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black","Zeroll Zerolon Hardcoat Anodized Commercial Ice Cream Scoop with Unique Liquid Filled Heat Conductive Handle Easy Release Made in USA, 1.5-Ounce, Black","- Ice Scoop, Fashion Ice Cream Scoop, Premium Stainless Steel Cookie Scoop, Dog Food Scoop, Sturdy Flour Scoop, Utility Candy Scoop, Dishwasher Safe (Silver/8oz/9 Inch) - AmazonCommercial Non-Stick Heat Resistant Silicone Spatula Set, 2 Small & 2 Large Spatulas, Multicolor, Pack of 4 - Winco Acrylic 4-Hole Ice Cream Cone Stand,Clear,Medium - Zeroll 1065FS-ZT Original Zelato Tubmate Aluminum Gelato Spade for Leveling Tubs Packing and Hand-Mixing, Self-Defrosting Fluid-Filled Handle Longer-Lasting Thicker Blade, 9-Inch, Gray"
+Instruction: We've already decided on the title and topic for our blog post. I would appreciate it if you wrote an introduction paragraph to attract the readers' attention. <GIST> Input: Blog title: Healthy Apple Muffins Blog Topic: recipe and tips for cooking a good apple muffin,Health,"Let me tell you this, apple muffins are extremely easy to make, and they are totally worth the effort.
+If you've never been much of a cook or baker before, I can promise you that making these will change your mind.
+And if they don't get the job done, at least they'll taste good!"
+Instruction: Summarize a meeting from the given list of bullet points. Be sure to convert shorthand into a first-hand account. <GIST> Input: Rose: Analyze data and presents findings John: propose new idea Jane: appointed to head project Tom: need more time to fix software bug,Rose: Analyze data and presents findings John: propose new idea Jane: appointed to head project Tom: need more time to fix software bug,"At the meeting, Rose analyzed data and presented her findings.
+Then, John proposed a new idea.
+Moreover, Jane was appointed to head the project.
+And, Tom said he needs more time to fix a software bug."
+Instruction: Give examples of popular shows and movies in the genre. <GIST> Input: Genre: Crime TV Shows,Drama,"Breaking Bad, Peaky Blinders, Arrow, Money Heist, Better Call Saul, DAHMER, The Blacklist, Lucifer, NCIS"
+Instruction: Write a step-by-step guide for resolving GitHub merge conflicts. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"1- Under your repository name, click Pull requests.
+2- In the ""Pull Requests"" list, click the pull request with a merge conflict that you'd like to resolve.
+3- Near the bottom of your pull request, click Resolve conflicts.
+4- Decide if you want to keep only your branch's changes, keep only the other branch's changes, or make a brand new change, which may incorporate changes from both branches.
+Delete the conflict markers, =======, >>>>>>> and make the changes you want in the final merge.
+5- If you have more than one merge conflict in your file, scroll down to the next set of conflict markers and repeat steps four and five to resolve your merge conflict.
+6- Once you've resolved all the conflicts in the file, click Mark as resolved.
+7- If you have more than one file with a conflict, select the next file you want to edit on the left side of the page under ""conflicting files"" and repeat steps four through seven until you've resolved all of your pull request's merge conflicts.
+8- Once you've resolved all your merge conflicts, click Commit merge.
+This merges the entire base branch into your head branch.
+9- If prompted, review the branch that you are committing to.
+If the head branch is the default branch of the repository, you can choose either to update this branch with the changes you made to resolve the conflict, or to create a new branch and use this as the head branch of the pull request.
+If you choose to create a new branch, enter a name for the branch.
+If the head branch of your pull request is protected you must create a new branch.
+You won't get the option to update the protected branch.
+Click Create branch"
+Instruction: You will need to compose the ABC notation for a given song. <GIST> Input: The South Wind,"The South Wind is a figurative phrase used to describe a wind that blows from the south.
+It is often used to describe a wind that is warm and moist, but can also be described as chilly and dry.","X:435 T:Southwind R:WALTZ M:3/4 L:1/4 Q:1/4=68 K:G |:d/c/|""G"" B3/2 A/2 G|Bcd|""D"" (A3 |A2) d/c/|""G""B3/2 A/2 G|""C"" EDE|""G""(G3|G2) d/c/|!
+|""G"" B3/2 A/2 G|Bcd|""D"" A3/2 (3G/F/G/|""D"" A2 d/c/| ""G"" B3/2 A/ G| ""C"" EDE | ""G"" (G3|G) B d|!
+""G"" g2 g| ""C"" g3/2 f/ e| ""G"" (d3|""D""d2) d/c/|""G"" B3/2 A/ G| B c d| ""D"" (A3|A2) d| ""C"" g2 g|!
+""C"" g3/2 f/ e| ""G"" d3| ""G"" d2 c| ""G"" B3/2 A/ G| ""D"" A/ c3/2 F| ""G"" (G3|G2):||"
+"Instruction: You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information. <GIST> Input: Ten European football teams – the Netherlands, England, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland and Wales – will participate in a season-long “OneLove” campaign promoting inclusion and opposing discrimination.",Football teams join forces to promote inclusion and oppose discrimination in #OneLove campaign.,"Every country except Sweden and Norway has qualified for the 2022 World Cup in Qatar and each captain of these eight nations will wear a distinctive OneLove armband – which features a heart containing colors from all backgrounds – during the tournament.
+The Netherlands FA, which is spearheading the campaign, chose the colors to represent all heritages, backgrounds, genders and sexual identities; the armband will be worn in Qatar where same-sex relationships are a criminal offense.
+Sweden and Norway will participate in the initiative during the upcoming Nations League matches, while England will also wear black armbands during both its UEFA Nations League matches to mark the death of Queen Elizabeth II.
+“This is an important message which suits the game of football: on the field everybody is equal and this should be the case in every place in society.
+With the OneLove band we express this message,” said Virgil van Dijk, the Netherlands captain.
+“On behalf of the Dutch team I have been wearing this band for quite a while now.
+It is good to see that other countries are joining this initiative.” OneLove was founded in the Netherlands in 2020 to emphasize that all football fans have at least one thing in common – their love of football – and to speak out against any form of discrimination.
+As well as focusing on public messaging, the initiative has also developed to offer diversity training to grassroots club.
+“Our love of football unites us all.
+No matter where you come from, what you look like and who you love.
+Football is there for everyone and our sport must stand up for the people across the world who face discrimination and exclusion,” said Germany captain Manuel Neuer.
+“I am proud to be sending out this message with my colleagues from the other national teams.
+Every single voice counts.” In June, England’s captain Harry"
+"Instruction: The tone of the email should be changed and rewritten in a more professional manner. <GIST> Input: Subject: Asking for Vacation Time Hi [Employer], I hope all is well. I am writing to request a day off on [date]. I have already taken care of my work responsibilities for that day and will be available to answer any questions or concerns you may have. Thank you for your time, [Your name]","Hi [Employer], I hope all is well.
+I am writing to request a day off on [date].
+I have already taken care of my work responsibilities for that day and will be available to answer any questions or concerns you may have.
+Thank you for your time, [Your name]","Subject: Request for Vacation Time Hello [Employer], I am writing to request vacation time from work.
+I would like to take [Number of Days] off, starting on [Date].
+I will be sure to complete all of my work before taking my vacation, and I will be available by email if anything comes up while I'm away.
+Thank you for your consideration.
+[Your name]"
+"Instruction: Please answer the following question based on the information provided in the article. <GIST> Input: Development studies is an interdisciplinary branch of social science. Development studies is offered as a specialized master's degree in a number of reputed universities around the world. It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated. Students of development studies often choose careers in international organisations such as the United Nations, World Bank, non-governmental organisations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and research centers. What are some popular careers for students of development studies?","Development studies is an interdisciplinary branch of social science that is offered as a specialized master's degree in a number of universities around the world.
+It has grown in popularity as a subject of study since the early 1990s, and has been most widely taught and researched in developing countries and countries with a colonial history, such as the UK, where the discipline originated.
+Students of development studies often choose careers in international organizations such as the United Nations, World Bank, non-governmental organizations (NGOs), media and journalism houses, private sector development consultancy firms, corporate social responsibility (CSR) bodies and","Some popular careers for students of development studies include working for international organisations such as the United Nations, World Bank, or NGOs, as well as working in media, journalism, private sector development consultancy, or corporate social responsibility."
+"Instruction: Give a brief explanation of the requested part of the paper. <GIST> Input: Paper: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. Explain: The dominant sequence transduction models","The Transformer is a new network architecture that improves on the state-of-the-art in machine translation by over 2 BLEU.
+It is based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.
+Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train.
+Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU","The dominant sequence transduction models are the most common models used to translate between two languages.
+These models are based on complex neural networks that include an encoder and a decoder.
+The best performing models also connect the encoder and decoder through an attention mechanism."
+Instruction: Indicate the genre of the book to which it belongs. <GIST> Input: Love in the Time of Cholera,Ernest Hemingway,Fiction
+Instruction: You are given a tweet and you should decide whether it's offensive or not. <GIST> Input: She has certainly taken some heat for being such an....well idiot.,She has certainly taken some heat for being such an idiot.,Offensive
+Instruction: You should find a few LATEX templates appropriate for the task at hand and list the links to them. <GIST> Input: Homework Assignment,Homework assignment is a type of task that is given to students to complete in order to help them learn and develop their skills.,- https://www.overleaf.com/latex/templates/gijss-homework-template/xrhhfgqcfbft - https://www.overleaf.com/latex/templates/homework-solutions/xykkzgnbzmxp - https://www.overleaf.com/latex/templates/ocen-cfd-article-template/mtpnnssgzjzw - https://www.overleaf.com/latex/templates/pitt-state-physics-homework-template/wdsxknmntnxk
+"Instruction: Think of an idea to help you win a challenge given to you. Write the steps you need to take to develop the idea as well. <GIST> Input: What can you make by recycling and repurposing some old, previously used materials? We want to see it! Projects must incorporate some kind of used materials - take that old used thing, and turn it into something new and different! E-waste is a huge problem. What can you make using old electronics and other salvageable electronic materials? We have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste. Be smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.","Recycling and reusing old materials is a great way to reduce waste and save money.
+We want to see what you can make using old electronics and other salvageable electronic materials.
+We have a special judges prize for our favorite Instructable that incorporates or is related to reusing e-waste.
+Be smart and be safe; note that potentially deadly projects (like Lichtenberg/fractal wood burning machines) will not be allowed to be published or submitted to this contest.","This power booster recycles a 'dead' battery to power a 1.8 volt red LED light.
+It's mainly made from recycled parts.
+When a 1.5 volt battery is new it will probably have more than 1.5 volts in it.
+As the battery is used the voltage will decrease until the voltage is not enough to run the application ( E.g.
+a red LED) and will be called 'dead'.
+But a Dead battery still has some power remaining in it - just not enough voltage.
+The trick is to use some of that remaining power to increase the voltage in a circuit.
+The trade off being there will be a reduction in current.
+Here is the required steps: 1- Connect a switch to a battery holder.
+A soldiering iron and hot glue gun assisted with this.
+2- Make a small pyramid above the battery holder using 4 bamboo skewer sticks secured with hot glue.
+3- Soldier on a 1.8 volt red LED at the top of the mini Christmas tree.
+4- Test the LED glows with a new battery (1.6 volts) 5- Test the LED doesn't glow with a dead battery (1.2 volts) 6- Add in the buzzer circuit, along with a switch.
+7- Add in the windings circuit - to touch the striker of the buzzer a little copper foil was added.
+8- Insert a dead battery (1.2 volt) with the buzzer circuit turned switch off - the LED will not glow but when the buzzer circuit is switched on the Red LED lights up."
+Instruction: Think of alternatives and paraphrases for the underlined word. <GIST> Input: what we have _expected,what we have expected,+ what we have projected + what we have anticipated + what we have waited + what we have hoped for + what we have accustomed
+"Instruction: I bought two shirts from the store and each one cost me $10. I also bought a pair of pants and they cost me $20. Then, I bought a dress and it cost me $30. Also, I bought a pair of shoes and they cost me $40. Lastly, I bought a jacket and it cost me $50. Make a table chart showing items, the number, and the price of these items. Separate columns with ""|"". <GIST>",- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,Item | Number | Price Shirts | 2 | $10 Pants | 1 | $20 Dress | 1 | $30 Shoes | 1 | $40 Jacket | 1 | $50
+"Instruction: On the basis of the subject of the email, determine whether the email should be treated as spam or not. <GIST> Input: Dermatologists don't like her!",Dermatologists do not like her.,Spam
+Instruction: Use appropriate emojis to convey the meaning in the given text. <GIST> Input: Cute cat playful Soft,"Cute, playful, soft cat",Cute cat  playful  Soft
+Instruction: Make a list of the most popular podcasts. <GIST>,- The Shawshank Redemption - Forrest Gump - The Godfather - Pulp Fiction - The Dark Knight,"+ Top Podcasts + The Joe Rogan Experience + Distractible + Call Her Daddy + Huberman Lab + Anything Goes with Emma Chamberlain + Stuff You Should Know + The Psychology of your 20’s + On Purpose with Jay Shetty + Armchair Expert + Archetypes + Rachel Maddow Presents: Ultra + The Mel Robbins Podcast + Lex Fridman Podcast + The Daily + Think Fast, Talk Smart: Communication Techniques + TED Talks Daily"
+Instruction: Provide a detailed explanation of the steps that are required in order to construct the given project. <GIST> Input: Steam Engine Using an Empty Beer Can,"The steam engine uses an empty beer can as a heat exchanger.
+The can is filled with water and then placed in a fire to create steam.
+The steam is then used to power the engine.","Step 1: Close Drink Opening To build up steam the beverage can needs to act as a pressure vessel and so needs to be completely sealed, except where the steam will come out of the jet nozzles.
+It also needs to rotate on itself.
+Bend up the outer tab into a L shape using some pilers and then bend it forward so a piece of string can hang from it over the center of the can.
+This will allow the can to rotate on itself.
+Close the pouring opening by using a knife or other thin object, bending the opening back up so it almost where it was before the beverage can was opened.
+Step 2: Nozzel Jets Make a couple of holes in the side of the can, about half way up, opposite each other using a small drill.
+The diameter of the holes should be about the same as the thin plastic tubing to be used as jet nozzles.
+Enlarge the holes so they are elliptical allowing the nozzle tubes to lie parallel against the cans side.
+Step 3: Making a Pressure Vessel Seal the top of the opened can using super glue and baking soda to make a small pressure vessel.
+Add some super glue to the closed opening and then sprinkle on some baking soda - they will combine to make a plastic.
+Keep adding super glue and baking soda until the top is sealed.
+Step 4: Attaching the Nozzle Jets Fit in the thin plastic tubes to the holes drilled in the sides of the can and seal with super glue and baking soda.
+Try to have the tubes pointing horizontal in the direction you want to rotate the can when the steam exits the nozzles.
+Step 5: Creating Steam Add a little water into the can though one of the nozzles.
+Just add maybe a teaspoon or so.
+Step"
+"Instruction: Using the ingredients that are available, create a dinner recipe. <GIST> Input: Kale + almond butter + apple cider vinegar + agave nectar + tamari","Kale, almond butter, apple cider vinegar, agave nectar, tamari","Gently pat the kale leaves dry.
+De-stem the kale and tear into pieces of desired size.
+Add the kale to a large bowl.
+Add the almond butter, apple cider vinegar, liquid aminos, and agave nectar to a small bowl and whisk together for 30 seconds.
+Pour the dressing over the kale leaves, roll up your sleeves, and massage the kale with your hands for 2-3 minutes.
+The more you massage the kale, the more tender and flavorful the leaves will become.
+* Transfer the kale to one large or two small salad bowls and top with desired garnishes."
+Instruction: Solve this equation. <GIST> Input: x<unk> 3 - 4x<unk> 2 + 6x - 24 = 0,x = -2,"x = 4, x= -i * sqrt(6), x= i * sqrt(6)"
+"Instruction: Create a short, concise summary of the paper based on its abstract. <GIST> Input: Few-shot learning (FSL) is one of the key future steps in machine learning and raises a lot of attention. In this paper, we focus on the FSL problem of dialogue understanding, which contains two closely related tasks: intent detection and slot filling. Dialogue understanding has been proven to benefit a lot from jointly learning the two sub-tasks. However, such joint learning becomes challenging in the few-shot scenarios: on the one hand, the sparsity of samples greatly magnifies the difficulty of modeling the connection between the two tasks; on the other hand, how to jointly learn multiple tasks in the few-shot setting is still less investigated. In response to this, we introduce FewJoint, the first FSL benchmark for joint dialogue understanding. FewJoint provides a new corpus with 59 different dialogue domains from real industrial API and a code platform to ease FSL experiment set-up, which are expected to advance the research of this field. Further, we find that insufficient performance of the few-shot setting often leads to noisy sharing between two sub-task and disturbs joint learning. To tackle this, we guide slot with explicit intent information and propose a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing. Besides, we introduce a Reptile-based meta-learning strategy to achieve better generalization in unseen few-shot domains. In the experiments, the proposed method brings significant improvements on two datasets and achieve new state-of-the-art performance.",The proposed method outperforms the state-of-the-art performance on two datasets.,"This paper introduces FewJoint, the first FSL benchmark for joint dialogue understanding, and guides slot with explicit intent information and proposes a novel trust gating mechanism that blocks low-confidence intent information to ensure high quality sharing."
+"Instruction: Categorize the Business into one of the Restaurants, Home Services, Auto Services and Miscellaneous based on its Specialties. <GIST> Input: Call us at 650-636-4884 or visit our website to receive a quote. This shop specializes in New Tires and General Auto Repair. We carry all tires in-house and have a wide range to fit any budget or car specifics. If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs. We also carry commercial vehicle tires and can serve a wide array of fleets.","This shop specializes in New Tires and General Auto Repair.
+We carry all tires in-house and have a wide range to fit any budget or car specifics.
+If you are unsure what tires you need there are experts on hand and available to help you pick the best tire for your needs.
+We also carry commercial vehicle tires and can serve a wide array of fleets.",Auto Services
+"Instruction: When you're stuck on a coding problem, the best place to look for help is in the documentation. Read the docs carefully and see if there's a section that covers your specific issue. Often, the answer will be right there in front of you. If not, try searching for key terms related to your problem. Come up with the useful links about the given search term. <GIST> Input: sql find duplicate values",sql find duplicate values,- https://iteration-utilities.readthedocs.io/en/latest/generated/duplicates.html - https://orange3-text.readthedocs.io/en/latest/widgets/duplicatedetection.html - https://beets.readthedocs.io/en/v1.3.14/plugins/duplicates.html - https://doma.readthedocs.io/en/latest/sql/ - https://koalas.readthedocs.io/en/latest/reference/api/databricks.koalas.DataFrame.drop_duplicates.html - https://sqlparse.readthedocs.io/en/latest/analyzing/
+"Instruction: Prove the given statement using your information. <GIST> Input: ""If x is a positive integer or a solution to x+3>4, then x>0 and x>12.""","If x is a positive integer or a solution to x+3>4, then x>0 and x>12.","To determine if it's true, let's look first at the assumptions.
+We are assuming that either x is a positive integer, or that it solves the inequality x+3>4.
+Next let's consider the conclusion.
+We are concluding that x must satisfy both inequalities x>0 and x>12.
+If we look more closely, we see that once we satisfy the second inequality, the first is redundant.
+(If x>12, then it must already be larger than zero.)
+Now, in order for this statement to be true, we need that if x solves either of the assumptions, then it must solve x>12.
+Well, the first assumption is that x is a positive integer, which means that x1, so in this case the conclusion holds.
+The second assumption is that x+3>4, or equivalently, that x>1, which means the conclusion holds as well."
+"Instruction: Assess the sentiment of the given tweet and categorize it as Positive, Negative, or Neutral. <GIST> Input: ""This is the best cheat-sheet paper that I've found in a LONG time.""",This is the best cheat-sheet paper I've found in a long time.,Positive
+Instruction: In what genres does the given movie or series fall? <GIST> Input: Manifest,"The word ""manifest"" is a noun.","Mystery, Sci-Fi, Drama"
+Instruction: The given article should be checked for any scientific errors and corrected if necessary. <GIST> Input: Zinc is an essential mineral that is required for good health. It is involved in many biochemical processes in the body and is necessary for the proper functioning of the immune system. Excess zink is not harmful as it is excreted in the urine.,"Zinc is an essential mineral that is required for good health.
+It is involved in many biochemical processes in the body and is necessary for the proper functioning of the immune system.
+Excess zinc is not harmful as it is excreted in the urine.","Although zinc is an essential requirement for good health, excess zinc can be harmful.
+Excessive absorption of zinc suppresses copper and iron absorption.
+The free zinc ion in solution is highly toxic to plants, invertebrates, and even vertebrate fish.
+The Free Ion Activity Model is well-established in the literature, and shows that just micromolar amounts of the free ion kills some organisms.
+A recent example showed 6 micromolar killing 93% of all Daphnia in water.
+The free zinc ion is a powerful Lewis acid up to the point of being corrosive.
+Stomach acid contains hydrochloric acid, in which metallic zinc dissolves readily to give corrosive zinc chloride.
+Swallowing a post-1982 American one cent piece (97.5% zinc) can cause damage to the stomach lining through the high solubility of the zinc ion in the acidic stomach."
+"Instruction: Given a sentence that may be ambiguous, rewrite the sentence using less ambiguous words. <GIST> Input: The chicken is ready to eat.",The chicken is ready to eat.,The chicken is going to eat.
+"Instruction: Given a programming language and the name of a function, write a command to show how to use the function. <GIST> Input: Language: Python Function: input",input(),"username = input(""Enter username:"")"
+Instruction: Choose the best books from the given genre. <GIST> Input: Crime & Mystery,Mystery,1- The Girl with the Dragon Tattoo 2- And Then There Were None 3- Angels & Demons 4- Rebecca 5- In Cold Blood 6- The Godfather 7- The Lovely Bones 8- Gone Girl 9- The Name of the Rose 10- Shutter Island

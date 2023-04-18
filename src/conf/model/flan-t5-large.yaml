@@ -1,0 +1,12 @@
+# @package _global_
+
+defaults:
+  - flan-t5-base
+
+model:
+  model_name_or_path: google/flan-t5-large
+
+training:
+  per_device_train_batch_size: 2
+  per_device_eval_batch_size: 2
+  gradient_accumulation_steps: 8

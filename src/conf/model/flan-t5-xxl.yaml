@@ -1,0 +1,16 @@
+# @package _global_
+# Check flan-t5-base.yaml for base config.
+
+defaults:
+  - flan-t5-base
+
+model:
+  model_name_or_path: google/flan-t5-xxl
+
+training:
+  bf16: true
+  bf16_full_eval: true
+  # On 4 gpus, this gives total batch size of 16.
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 4

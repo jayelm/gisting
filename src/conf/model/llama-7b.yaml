@@ -1,0 +1,22 @@
+# @package _global_
+# Hyperparams from https://github.com/tatsu-lab/stanford_alpaca#fine-tuning
+
+model:
+  model_name_or_path: llama-7b
+
+training:
+  bf16: true
+  bf16_full_eval: true
+  # 128 batch size.
+  per_device_train_batch_size: 4
+  per_device_eval_batch_size: 4
+  gradient_checkpointing: false
+  gradient_accumulation_steps: 8
+  generation_max_length: 512  # This includes the prompt length.
+  learning_rate: 2.0e-5
+  weight_decay: 0.0
+  warmup_ratio: 0.03
+  lr_scheduler_type: cosine
+
+  save_steps: 1500
+  eval_steps: 1500

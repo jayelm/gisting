@@ -1,0 +1,19 @@
+# @package _global_
+# Uses tk-instruct finetuning params.
+
+model:
+  model_name_or_path: google/flan-t5-base
+
+training:
+  lr_scheduler_type: constant
+  warmup_steps: 0
+
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 8
+  gradient_accumulation_steps: 2
+  learning_rate: 0.00005
+
+  save_steps: 8000
+  eval_steps: 8000
+
+  max_steps: 16000  # you may be able to get away with just 8k steps.

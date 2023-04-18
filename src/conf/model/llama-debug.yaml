@@ -1,0 +1,16 @@
+# @package _global_
+# A debug llama config
+
+defaults:
+  - llama-7b
+
+model:
+  llama_debug: true
+  pretrained: false
+
+training:
+  bf16: false
+  bf16_full_eval: false
+  per_device_train_batch_size: 4
+  per_device_eval_batch_size: 4
+  eval_steps: 2

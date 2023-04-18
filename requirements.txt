@@ -1,0 +1,13 @@
+datasets==2.10.0
+deepspeed==0.8.3
+evaluate==0.3.0
+hydra-core==1.2.0
+numpy==1.21.2
+omegaconf>=2.1.1
+openai==0.27.2
+rouge_score==0.1.2
+nltk==3.6.2
+sentencepiece==0.1.98
+torch==2.0.0
+git+https://github.com/huggingface/transformers@fb366b9a
+wandb==0.13.4

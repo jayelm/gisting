@@ -1,0 +1,65 @@
+hydra:
+  run:
+    dir: .
+  sweep:
+    dir: .
+    subdir: .
+  job_logging:
+    root:
+      level: INFO
+  job:
+    env_set:
+      TOKENIZERS_PARALLELISM: "false"
+
+
+defaults:
+  - base_config  # see src/arguments.py
+  - _self_
+
+
+wandb:
+  log: true
+  entity: jayelm  # Change this to your wandb username.
+  project: gist
+  group: ${wandb.tag}-${training.gist.condition}-${training.gist.num_gist_tokens}tok-${basename:${model.model_name_or_path}}-${basename:${data.dataset_name}}
+  name: ${wandb.group}-run-${training.seed}
+
+model:
+  model_name_or_path: google/flan-t5-base
+  pretrained: true
+  # Recommend symlinking .cache to wherever you have space to store models,
+  # datasets, etc.
+  cache_dir: .cache/
+
+training:
+  predict_with_generate: true
+  generation_max_length: 128
+
+  do_train: true
+  do_eval: true
+  # Recommend symlinking exp to wherever you have space for experiment runs.
+  output_dir: exp/${wandb.group}/${wandb.name}
+
+  report_to: "none"  # THIS MUST BE NONE. Use wandb args to control logging.
+
+  dataloader_num_workers: 0  # If > 0, some weird process hanging might occur.
+
+  # Default training params: effective batch size = 16
+  num_train_epochs: 3
+  fp16: false
+  fp16_full_eval: false
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 8
+  gradient_accumulation_steps: 2
+
+  # Save/eval every 1000 steps and track best model
+  overwrite_output_dir: false  # Resume training from checkpoint if it exists.
+  evaluation_strategy: steps
+  save_strategy: steps
+  eval_steps: 1000
+  save_steps: 1000
+  save_total_limit: 1
+  load_best_model_at_end: true
+
+  metric_for_best_model: unseen_rougeL
+  greater_is_better: true
