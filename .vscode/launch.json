@@ -1,0 +1,66 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug_flan_t5",
+            "type": "python",
+            "request": "launch",
+            "module": "src.train",
+            "justMyCode": false,
+            "args": [
+                "+experiment=debug",
+                "wandb.log=true",
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0",
+                "CUDA_LAUNCH_BLOCKING": "1",
+            }
+        },
+        {
+            "name": "debug_llama",
+            "type": "python",
+            "request": "launch",
+            "module": "src.train",
+            "justMyCode": false,
+            "args": [
+                "+experiment=debug",
+                "+model=llama-debug",
+                "wandb.log=true",
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0",
+                "CUDA_LAUNCH_BLOCKING": "1",
+            }
+        },
+        {
+            "name": "debug_benchmarking",
+            "type": "python",
+            "request": "launch",
+            "module": "src.train",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                "+model=llama-debug",
+                // "+model=flan-t5-base",
+                "training.do_train=false",
+                "training.do_benchmarking=true",
+                "training.do_benchmarking_sanity_checks=true",
+                "training.max_benchmarking_samples=5",
+                "training.gist.num_gist_tokens=1",
+                "training.gist.condition=gist",
+                "training.benchmarking_profiler=pytorch",
+                "training.benchmarking_output_file=standard.csv",
+                // Set llama-debug above and uncomment these lines to do prompt
+                // caching rather than gist caching.
+                // "training.benchmarking_output_file=standard-prompt.csv",
+                // "training.benchmarking_prompt_caching=true",
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "1",
+            }
+        },
+    ]
+}
