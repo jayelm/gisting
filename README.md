@@ -11,7 +11,7 @@ Of note is that this codebase requires a quite recent version of Transformers th
 ### Setup local directories
 
 By default, experiment runs and model checkpoints are saved to `exp/` directory
-in root directory, and cached models (downloaded from the Huggingface Hub) and
+in root directory, and cached models (downloaded from the Hugging Face Hub) and
 datasets are saved to `.cache/`. Be sure to create these directories before
 running for the first time.
 
