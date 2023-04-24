@@ -34,7 +34,7 @@ Checkpoints for the 1 token gist models for LLaMA-7B and FLAN-T5-XXL (as well as
   - [Pos Control](https://huggingface.co/jayelm/flan-t5-xxl-pos_control-1)
   - [Neg Control](https://huggingface.co/jayelm/flan-t5-xxl-neg_control-1)
 
-> **Note**: The released LLaMA-7B checkpoints are **weight diffs**. You must have the base LLaMA-7B weights to recover the original model. Please use the `src/weight_diff.py` script to recover the original model given the weight diffs above, following the instructions [in the Alpaca repository](https://github.com/tatsu-lab/stanford_alpaca#recovering-alpaca-weights) (**but using my script instead**).
+> **Note**: The released LLaMA-7B checkpoints are **weight diffs**. You must have the base LLaMA-7B weights to recover the original model. Please use the `src/weight_diff.py` script to recover the original model given the weight diffs above, following the instructions [in the Alpaca repository](https://github.com/tatsu-lab/stanford_alpaca#recovering-alpaca-weights) (**but using my script instead**). Alternatively, if you use the `compress.py` script below and specify one of the Hugging Face diffs, the weight diff will be automatically applied for you if you supply `--base_llama_path`.
 
 To use the model and try out gist caching, use the `src/compress.py` script, e.g.
 
@@ -46,6 +46,8 @@ python -m src.compress --model_name_or_path jayelm/llama-7b-gist-1 --base_llama_
 Here, `--instruction` is the prompt to be compressed and cached, and `--input` is an (optional) input you can supply that is not compressed.
 
 `compress.py` is well documented; use the `--help` flag for more details and browse the code to see how gist caching is done. If you're loading a FLAN-T5-XXL checkpoint, you do not need to supply `--base_llama_path`.
+
+> **Warning**: Gist compression is currently only supported for `batch_size = 1`. Larger batch sizes are mostly implemented in FLAN-T5-XXL, but I haven't checked correctness as carefully. For LLaMA-7B, larger batch sizes will require modifying the rotary position embedings to account for gist offsets [here](https://github.com/jayelm/gisting/blob/main/src/gist_llama.py#L115-L125).
 
 ## Training
 
