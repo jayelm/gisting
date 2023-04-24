@@ -11,7 +11,7 @@ Of note is that this codebase requires a quite recent version of Transformers th
 ### Setup local directories
 
 By default, experiment runs and model checkpoints are saved to `exp/` directory
-in root directory, and cached models (downloaded from the Hugging Face Hub) and
+in root directory, and cached models (downloaded from the Huggingface Hub) and
 datasets are saved to `.cache/`. Be sure to create these directories before
 running for the first time.
 
@@ -21,9 +21,35 @@ to wherever you have plenty of space on your machine.
 LLaMA-7B experiments expect a folder called `llama-7b` in the root directory
 with model weights and tokenizer.
 
-## Usage
+## Demo + Checkpoints
 
-The command
+Checkpoints for the 1 token gist models for LLaMA-7B and FLAN-T5-XXL (as well as positive and negative controls) are now available on Hugging Face:
+
+- **LLaMA-7B**
+  - [Gist](https://huggingface.co/jayelm/llama-7b-gist-1)
+  - [Pos Control](https://huggingface.co/jayelm/llama-7b-pos_control-1)
+  - [Neg Control](https://huggingface.co/jayelm/llama-7b-neg_control-1)
+- **FLAN-T5-XXL**
+  - [Gist](https://huggingface.co/jayelm/flan-t5-xxl-gist-1)
+  - [Pos Control](https://huggingface.co/jayelm/flan-t5-xxl-pos_control-1)
+  - [Neg Control](https://huggingface.co/jayelm/flan-t5-xxl-neg_control-1)
+
+> **Note**: The released LLaMA-7B checkpoints are **weight diffs**. You must have the base LLaMA-7B weights to recover the original model. Please use the `src/weight_diff.py` script to recover the original model given the weight diffs above, following the instructions [in the Alpaca repository](https://github.com/tatsu-lab/stanford_alpaca#recovering-alpaca-weights) (**but using my script instead**).
+
+To use the model and try out gist caching, use the `src/compress.py` script, e.g.
+
+```
+python -m src.compress --model_name_or_path jayelm/llama-7b-gist-1 --base_llama_path llama-7b \
+    --instruction "Name the top cities in France that should not be missed. Include the best aspects of each place as well."
+```
+
+Here, `--instruction` is the prompt to be compressed and cached, and `--input` is an (optional) input you can supply that is not compressed.
+
+`compress.py` is well documented; use the `--help` flag for more details and browse the code to see how gist caching is done. If you're loading a FLAN-T5-XXL checkpoint, you do not need to supply `--base_llama_path`.
+
+## Training
+
+If you'd like to retrain the Gist models, the command
 
 ```
 python -m src.train \
@@ -114,9 +140,9 @@ Occasionally ChatGPT will spit out something that cannot be parsed by the JSON p
 
 The ChatGPT comparisons (output of this script) reported in the paper are located in `data/results/chatgpt`.
 
-## Benchmarking (and gist caching demonstration)
+## Benchmarking
 
-The training script has benchmarking functionality which is used to obtain the benchmarking results, but also contains the custom logic for enabling gist caching.
+The training script has benchmarking functionality which is used to obtain the benchmarking results.
 
 Benchmarking was done without DeepSpeed on a single A100 80GB GPU, though a 40GB GPU is likely fine too. An example command for benchmarking is (also available as a VSCode launch config):
 
@@ -137,7 +163,7 @@ Some notes here:
 
 - If you trained with the DeepSpeed config above, you will likely need to convert the DeepSpeed model checkpoint into a standard fp32 PyTorch model file by running `./zero_to_fp32.py . pytorch_model.bin` in the checkpoint you'd like to benchmark.
 - You can use either the [PyTorch default profiler](https://pytorch.org/docs/stable/profiler.html) or the [DeepSpeed FLOPs profiler](https://www.deepspeed.ai/tutorials/flops-profiler/) by setting `training.benchmarking_profiler`. Paper uses PyTorch default profiler.
-- `do_benchmarking_sanity_checks=true` activates gist caching sanity checking, where we verify that model outputs and decodes are same with and without gist caching. **If you want a demo of how to actually do gist caching, activate this option and look through the `benchmark_loop` and `benchmarking_sanity_checks` functions in GistSeq2SeqTrainer in `trainer_seq2seq.py`.**
+- `do_benchmarking_sanity_checks=true` activates gist caching sanity checking, where we verify that model outputs and decodes are same with and without gist caching.
 
 > **Note**: For the larger models, we actually found that we would often fail gist sanity checks due to floating point errors. If you run the larger models with sanity checking on, you will find some torch assertion errors where 99% of the model states are identical, except for one value here or there.
 

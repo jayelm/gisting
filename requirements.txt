@@ -1,6 +1,7 @@
 datasets==2.10.0
 deepspeed==0.8.3
 evaluate==0.3.0
+fire==0.5.0
 hydra-core==1.2.0
 numpy==1.21.2
 omegaconf>=2.1.1
