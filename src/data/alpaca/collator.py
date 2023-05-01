@@ -52,11 +52,6 @@ class DataCollatorForAlpaca:
 
         sources = []
         for instance in batch:
-            if instance["input"]:
-                source = f"Instruction: {instance['instruction']}\n Input: {instance['input']}"  # noqa
-            else:
-                pass
-
             if not self.add_gist_token:
                 # Add gist tokens later, during tokenization.
                 maybe_gist_str = ""

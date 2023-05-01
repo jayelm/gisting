@@ -19,7 +19,7 @@ TAG="test"
 port=$(shuf -i25000-30000 -n1)
 
 deepspeed --master_port $port --num_gpus=4 --no_local_rank \
-    --module src.run_ift \
+    --module src.train \
     +model=llama-7b wandb.tag=$TAG \
     training.deepspeed=ds_configs/stage3.json \
     training.gist.condition=gist \
