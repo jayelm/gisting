@@ -31,7 +31,7 @@ from .gist_llama import PRETRAINED_VOCAB_SIZE, GistLlamaForCausalLM
 
 WEIGHT_SUMS = {
     "gist": 50547.9570,
-    "pos_control": 50596.9219,
+    "pos_control": 50596.9141,
     "neg_control": 50503.8789,
 }
 
