@@ -10,7 +10,6 @@ This codebase has been tested with python 3.9.16 and pytorch 2.0.0. I recommend 
 
 > **Warning**: Training results are reproducible only with **DeepSpeed version 0.8.3.** For some (currently unknown) reason, newer DeepSpeed versions result in some performance degradation (see [this issue](https://github.com/jayelm/gisting/issues/9)).
 
-
 ### Setup local directories
 
 By default, experiment runs and model checkpoints are saved to `exp/` directory
@@ -23,6 +22,10 @@ to wherever you have plenty of space on your machine.
 
 LLaMA-7B experiments expect a folder called `llama-7b` in the root directory
 with model weights and tokenizer.
+
+### Setup Weights & Biases (training only)
+
+If you'd like to train models (not just use them), set up a [Weights & Biases account](https://wandb.ai/) for experiment logging, and replace my username with yours in the `wandb.entity` field of `src/conf/config.yaml` [here](https://github.com/jayelm/gisting/blob/main/src/conf/config.yaml#L22).
 
 ## Demo + Checkpoints
 
