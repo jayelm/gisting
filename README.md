@@ -6,7 +6,10 @@ This repository contains code and data for "Learning to Compress Prompts with Gi
 
 This codebase has been tested with python 3.9.16 and pytorch 2.0.0. I recommend creating a new virtual env (e.g. with Conda), then installing torch manually from `pytorch.org`. `pip install -r requirements.txt` should take care of the remaining dependencies.
 
-Of note is that this codebase requires a quite recent version of Transformers that has support for LLaMA. The specific commit pinned in `requirements.txt` is the one that was tested; any Transformers release newer than that should work (there may be some naming issues with a newer version).
+> **Warning**: This codebase requires a specific version of Transformers: commit [fb366b9a](https://github.com/huggingface/transformers/tree/fb366b9a2a94b38171896f6ba9fb9ae8bffd77af). Installing from `requirements.txt` should install the correct version. **Newer Transformers releases will not work, as some function signatures have changed in `modeling_llama.py`** (see [this issue](https://github.com/jayelm/gisting/issues/10)).
+
+> **Warning**: Training results are reproducible only with **DeepSpeed version 0.8.3.** For some (currently unknown) reason, newer DeepSpeed versions result in some performance degradation (see [this issue](https://github.com/jayelm/gisting/issues/9)).
+
 
 ### Setup local directories
 
@@ -68,6 +71,8 @@ masks out the instruction entirely).
 For debugging, you may be interested in setting the `+experiment=debug` flag, which runs a small model (FLAN-T5-small) on a tiny number of samples and evaluations, just to check that the train/eval loop is working.
 
 > **Note**: If you're not familiar with the CLI syntax, check out [Hydra](https://hydra.cc/).
+
+> **Note**: If you receive a `ConfigValueError`, see [this issue](https://github.com/jayelm/gisting/issues/6) for a workaround.
 
 > **Note**: For VSCode users, some example launch configurations for debugging are in `.vscode/launch.json`.
 
