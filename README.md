@@ -80,7 +80,7 @@ For debugging, you may be interested in setting the `+experiment=debug` flag, wh
 > **Note**: For VSCode users, some example launch configurations for debugging are in `.vscode/launch.json`.
 
 To train the larger models in the paper (FLAN-T5-XXL, LLaMA-7B), multi-gpu
-training is required with DeepSpeed. `./run.sh` contains an example, but the basic idea is:
+training is required with DeepSpeed. `./run_deepspeed.sh` contains an example, but the basic idea is:
 
 ```
 deepspeed --num_gpus=4 --no_local_rank --module src.train \
@@ -114,9 +114,9 @@ The wandb group and run names define a directory which will save model checkpoin
 
 ### Launching via SLURM
 
-Note that multi-gpu runs with the deepspeed launcher do not support SLURM. However, running smaller models (e.g. FLAN-T5-base, LLaMA-debug) on a single GPU is supported.
+Use `sbatch run_deepspeed.sh` to submit multi-GPU DeepSpeed jobs to a SLURM cluster, or just run in an interactive session.
 
-To launch via slurm, do `pip install hydra-submitit-launcher` then specify `+launcher=slurm` via CLI to send a job to slurm (rather than running locally).  Use of `-m` or `--multirun` as a Hydra option is required for the SLURM launcher to be picked up.  Configure slurm parameters (e.g. partition, account, etc) in `src/conf/launcher/slurm.yaml`.
+If you are not using DeepSpeed, i.e. training smaller models (e.g. FLAN-T5-base, LLaMA-debug) on a single GPU, you can also use `hydra-submitit-launcher` to conveniently transform a local run into a SLURM batch job submission. Do `pip install hydra-submitit-launcher`, then specify `+launcher=slurm` via CLI to send a job to slurm.  Use of `-m` or `--multirun` as a Hydra option is required for the SLURM launcher to be picked up.  Configure slurm parameters (e.g. partition, account, etc) in `src/conf/launcher/slurm.yaml`.
 
 This is particularly useful with hydra's sweep functionality. E.g. the command
 
@@ -133,7 +133,7 @@ ROUGE results are logged automatically during training above, but ChatGPT evalua
 
 Obtain filepaths to the predictions from two models you'd like to compare. Outputs used for evaluation in the paper are in `data/results/{FLAN-T5,LLaMA}-{gist,pos_control,neg_control}-{1,2,5,10}`, sweeping over the model, gist condition, and number of gist tokens respectively.
 
-For example say we want to compare the LLaMA gist 1 vs pos control model. Then we use the `scripts/eval_chatgpt.py` script:
+For example, say we want to compare the LLaMA single gist token model to its pos control. You can use the `scripts/eval_chatgpt.py` script:
 
 ```
 python scripts/eval_chatgpt.py \
@@ -146,9 +146,9 @@ python scripts/eval_chatgpt.py \
 
 You will need a valid OpenAI key---follow OpenAI API setup instructions.
 
-Occasionally ChatGPT will spit out something that cannot be parsed by the JSON parser. In these cases it will log to stderr and the json for the result will have a "COULD NOT PARSE JSON" message. You can `grep` for these messages and manually fix the responses and change the overall scores accordingly.
+Occasionally ChatGPT will spit out something that cannot be parsed by the JSON parser. In these cases it will log to stderr and the json for the result will have a "COULD NOT PARSE JSON" message. You can search for these messages in the results file, manually fix the responses, and change the overall scores accordingly.
 
-The ChatGPT comparisons (output of this script) reported in the paper are located in `data/results/chatgpt`.
+The ChatGPT comparisons reported in the paper are located in `data/results/chatgpt`.
 
 ## Benchmarking
 
