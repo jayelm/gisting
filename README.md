@@ -6,9 +6,11 @@ This repository contains code and data for "Learning to Compress Prompts with Gi
 
 This codebase has been tested with python 3.9.16 and pytorch 2.0.0. I recommend creating a new virtual env (e.g. with Conda), then installing torch manually from `pytorch.org`. `pip install -r requirements.txt` should take care of the remaining dependencies.
 
-> **Warning**: This codebase requires a specific version of Transformers: commit [fb366b9a](https://github.com/huggingface/transformers/tree/fb366b9a2a94b38171896f6ba9fb9ae8bffd77af). Installing from `requirements.txt` should install the correct version. **Newer Transformers releases will not work, as some function signatures have changed in `modeling_llama.py`** (see [this issue](https://github.com/jayelm/gisting/issues/10)).
+> [!IMPORTANT]
+> This codebase requires a specific version of Transformers: commit [fb366b9a](https://github.com/huggingface/transformers/tree/fb366b9a2a94b38171896f6ba9fb9ae8bffd77af). Installing from `requirements.txt` should install the correct version. **Newer Transformers releases will not work, as some function signatures have changed in `modeling_llama.py`** (see [this issue](https://github.com/jayelm/gisting/issues/10)).
 
-> **Warning**: Training results are reproducible only with **DeepSpeed version 0.8.3.** For some (currently unknown) reason, newer DeepSpeed versions result in some performance degradation (see [this issue](https://github.com/jayelm/gisting/issues/9)).
+> [!IMPORTANT]
+> Training results are reproducible only with **DeepSpeed version 0.8.3.** For some (currently unknown) reason, newer DeepSpeed versions result in some performance degradation (see [this issue](https://github.com/jayelm/gisting/issues/9)).
 
 ### Setup local directories
 
@@ -40,7 +42,8 @@ Checkpoints for the 1 token gist models for LLaMA-7B and FLAN-T5-XXL (as well as
   - [Pos Control](https://huggingface.co/jayelm/flan-t5-xxl-pos_control-1)
   - [Neg Control](https://huggingface.co/jayelm/flan-t5-xxl-neg_control-1)
 
-> **Note**: The released LLaMA-7B checkpoints are **weight diffs**. You must have the base LLaMA-7B weights to recover the original model. Please use the `src/weight_diff.py` script to recover the original model given the weight diffs above, following the instructions [in the Alpaca repository](https://github.com/tatsu-lab/stanford_alpaca#recovering-alpaca-weights) (**but using my script instead**). Alternatively, if you use the `compress.py` script below and specify one of the Hugging Face diffs, the weight diff will be automatically applied for you if you supply `--base_llama_path`.
+> [!NOTE]
+> The released LLaMA-7B checkpoints are **weight diffs**. You must have the base LLaMA-7B weights to recover the original model. Please use the `src/weight_diff.py` script to recover the original model given the weight diffs above, following the instructions [in the Alpaca repository](https://github.com/tatsu-lab/stanford_alpaca#recovering-alpaca-weights) (**but using my script instead**). Alternatively, if you use the `compress.py` script below and specify one of the Hugging Face diffs, the weight diff will be automatically applied for you if you supply `--base_llama_path`.
 
 To use the model and try out gist caching, use the `src/compress.py` script, e.g.
 
@@ -53,7 +56,7 @@ Here, `--instruction` is the prompt to be compressed and cached, and `--input` i
 
 `compress.py` is well documented; use the `--help` flag for more details and browse the code to see how gist caching is done. If you're loading a FLAN-T5-XXL checkpoint, you do not need to supply `--base_llama_path`.
 
-> **Warning**: Gist compression is currently only supported for `batch_size = 1`. Larger batch sizes are mostly implemented in FLAN-T5-XXL, but I haven't checked correctness as carefully. For LLaMA-7B, larger batch sizes will require modifying the rotary position embedings to account for gist offsets [here](https://github.com/jayelm/gisting/blob/main/src/gist_llama.py#L115-L125).
+> [!NOTE] Gist compression is currently only supported for `batch_size = 1`. Larger batch sizes are mostly implemented in FLAN-T5-XXL, but I haven't checked correctness as carefully. For LLaMA-7B, larger batch sizes will require modifying the rotary position embedings to account for gist offsets [here](https://github.com/jayelm/gisting/blob/main/src/gist_llama.py#L115-L125).
 
 ## Training
 
@@ -73,11 +76,14 @@ masks out the instruction entirely).
 
 For debugging, you may be interested in setting the `+experiment=debug` flag, which runs a small model (FLAN-T5-small) on a tiny number of samples and evaluations, just to check that the train/eval loop is working.
 
-> **Note**: If you're not familiar with the CLI syntax, check out [Hydra](https://hydra.cc/).
+> [!NOTE]
+> If you're not familiar with the CLI syntax, check out [Hydra](https://hydra.cc/).
 
-> **Note**: If you receive a `ConfigValueError`, see [this issue](https://github.com/jayelm/gisting/issues/6) for a workaround.
+> [!NOTE]
+> If you receive a `ConfigValueError`, see [this issue](https://github.com/jayelm/gisting/issues/6) for a workaround.
 
-> **Note**: For VSCode users, some example launch configurations for debugging are in `.vscode/launch.json`.
+> [!NOTE]
+> For VSCode users, some example launch configurations for debugging are in `.vscode/launch.json`.
 
 To train the larger models in the paper (FLAN-T5-XXL, LLaMA-7B), multi-gpu
 training is required with DeepSpeed. `./run_deepspeed.sh` contains an example, but the basic idea is:
@@ -175,9 +181,11 @@ Some notes here:
 - You can use either the [PyTorch default profiler](https://pytorch.org/docs/stable/profiler.html) or the [DeepSpeed FLOPs profiler](https://www.deepspeed.ai/tutorials/flops-profiler/) by setting `training.benchmarking_profiler`. Paper uses PyTorch default profiler.
 - `do_benchmarking_sanity_checks=true` activates gist caching sanity checking, where we verify that model outputs and decodes are same with and without gist caching.
 
-> **Note**: For the larger models, we actually found that we would often fail gist sanity checks due to floating point errors. If you run the larger models with sanity checking on, you will find some torch assertion errors where 99% of the model states are identical, except for one value here or there.
+> [!NOTE]
+> For the larger models, we actually found that we would often fail gist sanity checks due to floating point errors. If you run the larger models with sanity checking on, you will find some torch assertion errors where 99% of the model states are identical, except for one value here or there.
 
-> **Note**: We did not heavily optimize the gist caching implementation, so wall clock speedups (especially CPU times) are likely small or even non-existent due to the increased Python logic for gist caching. The main point of the gist caching implementation in this paper is to show it can be done and sanity check that the attention masking during training works for such caching behavior at inference time. The biggest gains from gist caching are likely to be achieved using custom, lower-level implementations of gist caching that optimize for inference latency.
+> [!NOTE]
+> We did not heavily optimize the gist caching implementation, so wall clock speedups (especially CPU times) are likely small or even non-existent due to the increased Python logic for gist caching. The main point of the gist caching implementation in this paper is to show it can be done and sanity check that the attention masking during training works for such caching behavior at inference time. The biggest gains from gist caching are likely to be achieved using custom, lower-level implementations of gist caching that optimize for inference latency.
 
 Like the other sections, the benchmarking results used in the paper are available in the `data/benchmarking` folder. See `data/README.md` for more details.
 
