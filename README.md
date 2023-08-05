@@ -163,7 +163,7 @@ python -m src.train \
     training.do_benchmarking=true \
     training.do_benchmarking_sanity_checks=true \
     training.gist.num_gist_tokens=1 \
-    training.gist.condition=gist
+    training.gist.condition=gist \
     model.model_name_or_path=YOUR_PATH_TO_PRETRAINED_GIST_MODEL \
     training.benchmarking_profiler=pytorch \
     training.benchmarking_output_file=my_benchmarking.csv
